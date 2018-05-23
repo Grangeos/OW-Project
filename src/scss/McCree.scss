@@ -1,0 +1,37 @@
+//main: main.scss
+.tabs{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #222;
+
+
+  .tabs-panel{
+    color: white;
+    background-color: #334667;
+    border-radius: 1em;
+    width: 70%;
+    padding-left: 1em;
+    margin: 2em auto;
+
+    .imgMcCree{
+      width: 80%;
+      margin: 3em 6.5em;
+    }
+      .presentation {
+        border-left: 6px solid #00c3ff;
+        padding-left: 18px;
+        margin-left: 6px;
+        margin-top: 18px;
+        line-height: 1.6;
+      }
+        .ListGroup{
+          list-style-type: none;
+          font-size: 1.3em;
+            .icone{
+              color: #00c3ff;
+              padding: 0.5em 0.5em 0.5em 0;
+            }
+        }
+  }
+}

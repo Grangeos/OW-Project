@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Header from "./Header";
-import SombraCarousel from './SombraCarousel.js'
+import SombraCarousel from './SombraCarousel.js';
+import McCree from "./McCree";
 
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
         <Fragment>
             <Header />
             <SombraCarousel />
+            <McCree />
         </Fragment>
     );
   }
