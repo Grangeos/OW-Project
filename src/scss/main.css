@@ -1,3 +1,7 @@
+html, body {
+  background-color: #222;
+}
+
 .navBar {
   border-radius: 1px;
 }
@@ -15,23 +19,23 @@
 }
 
 .carousel {
-  width: 40vw;
+  width: 100vw;
   margin: 0 auto;
 }
 
 .carousel .item {
-  height: 20vh;
+  height: 93.5vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .carousel {
-  width: 40vw;
+  width: 100vw;
   margin: 0 auto;
 }
 
 .carousel .item {
-  height: 20vh;
+  height: 93.5vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
