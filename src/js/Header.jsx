@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Navbar, NavItem, MenuItem, Nav, NavDropdown} from "react-bootstrap";
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -12,10 +13,10 @@ class Header extends Component {
           </Navbar.Header>
         <Nav>
           <NavItem className="navItem" ventKey={1} href="">
-              Sombra
+              <Link to="/sombra">Sombra</Link>
           </NavItem>
           <NavItem className="navItem" ventKey={2} href="#">
-              Chopper
+              <Link to="/chopper">Chopper</Link>
           </NavItem>
           <NavItem className="navItem" ventKey={2} href="#">
               McCree
