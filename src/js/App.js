@@ -6,13 +6,10 @@ import SombraCarousel from './SombraCarousel.js'
 class App extends Component {
   render() {
     return (
-      <Fragment>
-      <Header />
-      <SombraCarousel />
-
-
-      </Fragment>
-
+        <Fragment>
+            <Header />
+            <SombraCarousel />
+        </Fragment>
     );
   }
 }
