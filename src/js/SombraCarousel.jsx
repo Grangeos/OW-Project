@@ -3,6 +3,7 @@ import { Carousel, Caption, Item } from 'react-bootstrap';
 import sombra from '../scss/picture/sombra.jpg';
 import chopper from '../scss/picture/chopper.jpg';
 import mccree from '../scss/picture/mccree.jpg';
+import leftRight from "../scss/picture/arrow.png";
 
 class SombraCarousel extends Component {
     render() {
@@ -11,6 +12,8 @@ class SombraCarousel extends Component {
                 <Carousel
                 interval={5000}
                 pauseOnHover={false}
+                prevIcon={<img src={leftRight} />}
+                nextIcon={<img src={leftRight} />}
                 >
                     <Carousel.Item style={{backgroundImage:`url(${sombra})`}}>
                         <Carousel.Caption>

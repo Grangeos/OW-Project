@@ -1,9 +1,20 @@
+@font-face {
+  font-family: "Overwatch";
+  src: url(../Font/bignoodletitling/big_noodle_titling.ttf);
+}
+
 html, body {
   background-color: #222;
+  font-family: "Overwatch";
+}
+
+.navBar .navTitle {
+  font-size: 1.7em;
 }
 
 .navBar {
   border-radius: 1px;
+  font-size: 2em;
 }
 
 .navBar .navTitle {
@@ -12,10 +23,17 @@ html, body {
 
 .navBar .navItem {
   color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  color: inherit;
 }
 
-.navBar .navItem:hover {
-  color: orange;
+.navBar .navItem a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navBar .navItem a:hover {
+  color: #ffb033;
 }
 
 .carousel {
@@ -23,8 +41,33 @@ html, body {
   margin: 0 auto;
 }
 
+.carousel .carousel-control {
+  display: flex;
+}
+
+.carousel .carousel-control > img {
+  height: 15vh;
+  margin: auto 0;
+}
+
+.carousel .carousel-control.right img {
+  transform: rotateZ(180deg);
+  margin-left: auto;
+}
+
 .carousel .item {
   height: 93.5vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.carousel .carousel-caption {
+  font-size: 3em;
+}
+
+.jumbotron {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 1vh 1vw;
+  background-color: #aaaaaa;
 }

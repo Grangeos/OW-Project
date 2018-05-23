@@ -1,6 +1,9 @@
+@import "font.scss";
 html, body{
     background-color: #222;
+    font-family: "Overwatch";
 }
 @import "Header.scss";
 @import "SombraCarousel.scss";
 @import "Chopper.scss";
+@import "SombraHeader.scss";

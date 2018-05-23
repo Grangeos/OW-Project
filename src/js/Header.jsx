@@ -8,7 +8,7 @@ class Header extends Component {
       <Navbar className="navBar" inverse collapseOnSelect >
           <Navbar.Header>
             <Navbar.Brand>
-              <a className="navTitle" href="https://playoverwatch.com/fr-fr/heroes/">Overwatch Heroes </a>
+              <a className="navTitle" href="/">Overwatch Heroes </a>
             </Navbar.Brand>
           </Navbar.Header>
         <Nav>
@@ -19,7 +19,7 @@ class Header extends Component {
               <Link to="/chopper">Chopper</Link>
           </NavItem>
           <NavItem className="navItem" ventKey={2} href="#">
-              McCree
+              <Link to="/mccree">Mccree</Link>
           </NavItem>
         </Nav>
       </Navbar>

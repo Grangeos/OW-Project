@@ -1,11 +1,30 @@
 //main: main.scss
-.carousel{
+
+.carousel {
     width: 100vw;
     margin: 0 auto;
-    .item{
+
+    .carousel-control {
+        display: flex;
+
+        > img {
+            height: 15vh;
+            margin: auto 0;
+        }
+
+        &.right img {
+            transform: rotateZ(180deg);
+            margin-left: auto;
+        }
+    }
+
+    .item {
         height: 93.5vh;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
+    .carousel-caption {
+        font-size: 3em;
+    }
 }
