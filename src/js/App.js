@@ -10,7 +10,6 @@ class App extends Component {
             <Header />
             <SombraCarousel />
         </Fragment>
-
     );
   }
 }
