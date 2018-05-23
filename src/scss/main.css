@@ -28,14 +28,3 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.carousel {
-  width: 100vw;
-  margin: 0 auto;
-}
-
-.carousel .item {
-  height: 93.5vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
