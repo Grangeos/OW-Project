@@ -1,0 +1,17 @@
+//main: main.scss
+
+.navBar{
+  border-radius: 1px;
+
+  .navTitle{
+    color: white;
+  }
+
+  .navItem{
+    color: hsla(0,0%,100%,.7);
+
+    &:hover{
+      color: orange;
+    }
+  }
+}
