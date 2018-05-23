@@ -1,13 +1,15 @@
 import React, { Component, Fragment } from 'react';
-import Sombra from './Sombra.js'
 import Header from "./Header";
+import SombraCarousel from './SombraCarousel.js'
+
 
 class App extends Component {
   render() {
     return (
       <Fragment>
       <Header />
-      <Sombra />
+      <SombraCarousel />
+
 
       </Fragment>
 
