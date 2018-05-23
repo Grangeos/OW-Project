@@ -12,7 +12,7 @@ class McCree extends Component {
                   Armé de son Pacificateur, McCree abat ses cibles avec une précision redoutable et se met à couvert
                   plus vite que son ombre.
               </p>
-              <Image className="imgMcCree" src={ McCree1 } thumbnail />
+              <Image className="imgMcCree" src={ McCree1 } rounded />
               <ul className="ListGroup">
                 <li>
                   <span  className="glyphicon glyphicon-folder-open icone"> </span>

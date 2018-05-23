@@ -1,33 +1,36 @@
 import React, { Component } from 'react';
 import { Carousel, Caption, Item } from 'react-bootstrap';
-import sombra01 from '../scss/picture/sombra01.jpg';
-import sombra02 from '../scss/picture/sombra02.jpg';
-import sombra03 from '../scss/picture/sombra03.jpg';
+import sombra from '../scss/picture/sombra.jpg';
+import chopper from '../scss/picture/chopper.jpg';
+import mccree from '../scss/picture/mccree.jpg';
+import leftRight from "../scss/picture/arrow.png";
 
 class SombraCarousel extends Component {
     render() {
         return(
             <section>
                 <Carousel
-                interval={1000}
+                interval={5000}
                 pauseOnHover={false}
+                prevIcon={<img src={leftRight} />}
+                nextIcon={<img src={leftRight} />}
                 >
-                    <Carousel.Item style={{backgroundImage:`url(${sombra01})`}}>
+                    <Carousel.Item style={{backgroundImage:`url(${sombra})`}}>
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>Sombra</h3>
+                            <p>Edited by Grangeos</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item style={{backgroundImage:`url(${sombra02})`}}>
+                    <Carousel.Item style={{backgroundImage:`url(${chopper})`}}>
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>Chopper</h3>
+                            <p>Edited by Tibomat</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item style={{backgroundImage:`url(${sombra03})`}}>
+                    <Carousel.Item style={{backgroundImage:`url(${mccree})`}}>
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>Sombra</h3>
+                            <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
 

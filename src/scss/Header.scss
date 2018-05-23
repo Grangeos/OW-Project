@@ -1,17 +1,31 @@
 //main: main.scss
 
-.navBar{
-  border-radius: 1px;
-
-  .navTitle{
-    color: white;
-  }
-
-  .navItem{
-    color: hsla(0,0%,100%,.7);
-
-    &:hover{
-      color: orange;
+.navBar {
+    .navTitle {
+        font-size: 1.7em;
     }
-  }
+}
+
+.navBar {
+    border-radius: 1px;
+    font-size: 2em;
+
+    .navTitle {
+        color: white;
+    }
+
+    .navItem {
+        color: hsla(0,0%,100%,.7);
+        text-decoration: none;
+        color: inherit;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover {
+                color: #ffb033;
+            }
+        }
+    }
 }
