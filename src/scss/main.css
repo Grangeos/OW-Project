@@ -1,0 +1,10 @@
+.carousel {
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.carousel .item {
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

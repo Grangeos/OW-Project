@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Sombra from './Sombra.js'
+import SombraCarousel from './SombraCarousel.js'
 
 class App extends Component {
   render() {
     return (
-      <Sombra />
+      <SombraCarousel />
     );
   }
 }
