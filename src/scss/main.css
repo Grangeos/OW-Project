@@ -65,6 +65,45 @@ html, body {
   font-size: 3em;
 }
 
+.tabs {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #222;
+}
+
+.tabs .tabs-panel {
+  color: white;
+  background-color: #334667;
+  border-radius: 1em;
+  width: 70%;
+  padding-left: 1em;
+  margin: 2em auto;
+}
+
+.tabs .tabs-panel .imgMcCree {
+  width: 80%;
+  margin: 3em 6.5em;
+}
+
+.tabs .tabs-panel .presentation {
+  border-left: 6px solid #00c3ff;
+  padding-left: 18px;
+  margin-left: 6px;
+  margin-top: 18px;
+  line-height: 1.6;
+}
+
+.tabs .tabs-panel .ListGroup {
+  list-style-type: none;
+  font-size: 1.3em;
+}
+
+.tabs .tabs-panel .ListGroup .icone {
+  color: #00c3ff;
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
 .jumbotron {
   width: 70vw;
   margin: 0 auto;

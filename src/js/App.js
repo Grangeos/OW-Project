@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Header from "./Header.jsx";
+import McCree from "./McCree";
 import Sombra from './Sombra';
 import Chopper from './Chopper';
 import SombraCarousel from './SombraCarousel'
@@ -19,6 +20,7 @@ class App extends Component {
                     <Route path="/" exact component={Home}/>
                     <Route path="/sombra" exact component={Sombra} />
                     <Route path="/chopper" exact component={Chopper} />
+                    <Route path="/mccree" exact component={McCree} />
                 </Switch>
             </Fragment>
         </Router>
