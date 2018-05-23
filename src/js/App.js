@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Header from "./Header.jsx";
 import SombraCarousel from './SombraCarousel'
+import Chopper from './Chopper'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
@@ -10,7 +11,8 @@ class App extends Component {
             <Fragment>
                 <Header />
                 <Switch>
-                    <Route path="/" exact component={SombraCarousel} />
+                    <Route path="/sombra" exact component={SombraCarousel} />
+					<Route path="/chopper" exact component={Chopper} />
                 </Switch>
             </Fragment>
         </Router>
