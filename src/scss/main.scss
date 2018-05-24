@@ -3,6 +3,11 @@ html, body{
     background-color: #222;
     font-family: "Overwatch";
 }
+#root {
+    > nav {
+        margin: 0
+    }
+}
 @import "Header.scss";
 @import "SombraCarousel.scss";
 @import "McCree.scss";
