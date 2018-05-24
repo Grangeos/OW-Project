@@ -104,9 +104,44 @@ html, body {
   padding: 0.5em 0.5em 0.5em 0;
 }
 
-.jumbotron {
+.wrapperHeaderSombra {
+  background-image: url("./picture/ImageBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  padding-top: 10vh;
+}
+
+.wrapperHeaderSombra .jumbotron {
   width: 70vw;
   margin: 0 auto;
   padding: 1vh 1vw;
-  background-color: #aaaaaa;
+  background-color: rgba(51, 70, 103, 0.7);
+  border: 2px white solid;
+  padding: 2vh 2vw;
+}
+
+.wrapperHeaderSombra .jumbotron h1 {
+  color: white;
+  padding: 1vh 1vw;
+  text-align: center;
+}
+
+.wrapperHeaderSombra .jumbotron p {
+  font-size: 1.5em;
+  width: 70%;
+}
+
+.wrapperHeaderSombra .jumbotron .videoPlayer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapperButton {
+  position: relative;
+}
+
+.wrapperButton .well {
+  position: absolute;
 }
