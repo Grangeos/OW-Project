@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Carousel, Caption, Item } from 'react-bootstrap';
 import sombra from '../scss/picture/Sombra/sombra.jpg';
 import chopper from '../scss/picture/chopper.jpg';
-import mccree from '../scss/picture/mccree.jpg';
+import mccree from '../scss/picture/McCree/mccree.jpg';
 import leftRight from "../scss/picture/arrow.png";
 
 class SombraCarousel extends Component {

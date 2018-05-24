@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { ListGroup, ListGroupItem, Jumbotron, Image, Button, Collapse, Well} from "react-bootstrap";
 import Video from 'react-video-cover';
-import McCree1 from '../scss/picture/Mccree02.jpg';
-import iconAbility1 from "../scss/picture/IconAbility.png";
-import iconAbility2 from "../scss/picture/IconAbility1.png";
-import iconAbility3 from "../scss/picture/IconAbility2.png";
-import iconAbility4 from "../scss/picture/IconAbility3.png";
+import McCree1 from '../scss/picture/McCree/Mccree02.jpg';
+import iconAbility1 from "../scss/picture/McCree/IconAbility.png";
+import iconAbility2 from "../scss/picture/McCree/IconAbility1.png";
+import iconAbility3 from "../scss/picture/McCree/IconAbility2.png";
+import iconAbility4 from "../scss/picture/McCree/IconAbility3.png";
 import BackgroundTabs from "../scss/picture/ImageBackground.jpg";
-import McCreeVideo from "../scss/picture/VideoIntroMcCree.mp4";
+import McCreeVideo from "../scss/picture/McCree/VideoIntroMcCree.mp4";
 
 class McCree extends Component {
     constructor(props, context) {
