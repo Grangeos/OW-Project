@@ -74,22 +74,26 @@ html, body {
 
 .tabs .tabs-panel {
   color: white;
-  background-color: #334667;
+  background-color: rgba(51, 70, 103, 0.7);
   border-radius: 1em;
   width: 70%;
   padding-left: 1em;
   margin: 2em auto;
 }
 
-.tabs .tabs-panel .imgMcCree {
+.tabs .tabs-panel h1 {
+  text-align: center;
+}
+
+.tabs .tabs-panel .VideoIntro {
   width: 80%;
-  margin: 3em 6.5em;
+  margin: auto;
 }
 
 .tabs .tabs-panel .presentation {
   border-left: 6px solid #00c3ff;
   padding-left: 18px;
-  margin-left: 6px;
+  margin-left: 2em;
   margin-top: 18px;
   line-height: 1.6;
 }
@@ -97,11 +101,26 @@ html, body {
 .tabs .tabs-panel .ListGroup {
   list-style-type: none;
   font-size: 1.3em;
+  word-spacing: 3px;
 }
 
 .tabs .tabs-panel .ListGroup .icone {
   color: #00c3ff;
   padding: 0.5em 0.5em 0.5em 0;
+}
+
+.tabs .tabs-panel .ability {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabs .tabs-panel .ability .buttonAbility {
+  background-color: #334667;
+}
+
+.tabs .tabs-panel .ability .buttonAbility .iconAbility {
+  background-color: #334667;
+  width: 8em;
 }
 
 .wrapperHeaderSombra {

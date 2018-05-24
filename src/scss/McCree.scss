@@ -8,30 +8,46 @@
 
   .tabs-panel{
     color: white;
-    background-color: #334667;
+    background-color: rgba(51, 70, 103, 0.7);
     border-radius: 1em;
     width: 70%;
     padding-left: 1em;
     margin: 2em auto;
+    h1 {
+      text-align: center;
+    }
 
-    .imgMcCree{
+    .VideoIntro{
       width: 80%;
-      margin: 3em 6.5em;
+      margin: auto;
     }
       .presentation {
         border-left: 6px solid #00c3ff;
         padding-left: 18px;
-        margin-left: 6px;
+        margin-left: 2em;
         margin-top: 18px;
         line-height: 1.6;
       }
         .ListGroup{
           list-style-type: none;
           font-size: 1.3em;
+          word-spacing: 3px;
             .icone{
               color: #00c3ff;
               padding: 0.5em 0.5em 0.5em 0;
             }
+        }
+
+        .ability {
+          display: flex;
+          justify-content: space-around;
+          .buttonAbility{
+            background-color: #334667;
+            .iconAbility {
+              background-color: #334667;
+              width: 8em;
+            }
+          }
         }
   }
 }
