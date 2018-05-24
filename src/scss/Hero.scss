@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
   display: flex;
-  background-color: #222;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 
   .tabs-panel{
@@ -11,7 +12,6 @@
     background-color: rgba(51, 70, 103, 0.7);
     border-radius: 1em;
     width: 70%;
-    padding-left: 1em;
     margin: 2em auto;
     h1 {
       text-align: center;
@@ -37,23 +37,16 @@
               padding: 0.5em 0.5em 0.5em 0;
             }
         }
-
-        .desc {
-			> div {
-				> div {
-					> img {
-						width: 100%;
-					}
-				}
-			}
-		}
+        .row {
+            margin: 0;
+        }
 		.button {
 			display: flex;
 			justify-content: space-between;
 			> div {
 				&.active {
 					> button {
-						background-color: #334667;
+						background-color: #ffb033;
                         transform: scale(1.2);
                         > img {
                             transform: scale(1.2);
@@ -84,8 +77,14 @@
 				}
 			}
 		}
-        .in {
-            background-color: #334667;
+        .well {
+            background-color: rgba(0, 0, 0, 0);
+            box-shadow: none;
+            border: none;
+            w
+            > .VideoDesc {
+                margin: 0;
+            }
         }
   }
 }
