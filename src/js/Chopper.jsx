@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom';
 import cx from 'classnames'
 import {Button, Collapse, Image, Well, Row, Col, Grid, Jumbotron} from 'react-bootstrap';
 
-import Arme from '../scss/picture/Armechopper.png';
-import Healchopper from '../scss/picture/Healchopper.png';
-import Grapchopper from '../scss/picture/Grapchopper.png';
-import Ultchopper from '../scss/picture/Ultchopper.png';
-import ChopperArme from '../scss/picture/ChopperArme.png';
-import TakeBreather from '../scss/picture/TakeBreather.png';
-import ChopperGrap from '../scss/picture/ChopperGrap.png';
-import ChopperUlt from '../scss/picture/ChopperUlt.png';
-import ChopperFiche from '../scss/picture/ChopperFiche.png';
+import Arme from '../scss/picture/chopper/Armechopper.png';
+import Healchopper from '../scss/picture/chopper/Healchopper.png';
+import Grapchopper from '../scss/picture/chopper/Grapchopper.png';
+import Ultchopper from '../scss/picture/chopper/Ultchopper.png';
+import ChopperArme from '../scss/picture/chopper/ChopperArme.png';
+import TakeBreather from '../scss/picture/chopper/TakeBreather.png';
+import ChopperGrap from '../scss/picture/chopper/ChopperGrap.png';
+import ChopperUlt from '../scss/picture/chopper/ChopperUlt.png';
+import ChopperFiche from '../scss/picture/chopper/ChopperFiche.png';
 
 class Chopper extends React.Component {
 	constructor(props, context) {
