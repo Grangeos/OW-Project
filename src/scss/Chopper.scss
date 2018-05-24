@@ -2,6 +2,37 @@
 
 #root {
 	.chopper {
-			
+		.desc {
+			> div {
+				> div {
+					> img {
+						width: 100%;
+					}
+				}
+			}
 		}
+		.button {
+			display: flex;
+			justify-content: space-between;
+			> div {
+				border: none;
+				&.active {
+					> button {
+						background-color: #AAA;
+					}
+				}
+				> button {
+					outline: none;
+					border: none;
+					background-color: #555;
+					&:hover {
+						box-shadow: inset 0px 0px 15px #333;
+					}
+				}
+			}
+		}
+		.jumbotron {
+			margin-top: 5vh;
+		}
+	}
 }
