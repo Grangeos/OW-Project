@@ -13,7 +13,6 @@ import video_ability_mccree4 from "../scss/picture/McCree/video-ability_mccree4.
 
 class McCree extends Component {
   render() {
-    const {activeTab} = this.state;
     const data = {
       pers: "McCree",
       description: "Armé de son Pacificateur, McCree abat ses cibles avec une précision redoutable et se met à couvert plus vite que son ombre.",
