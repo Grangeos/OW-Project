@@ -13,7 +13,7 @@ import video_ability_Junkrat3 from "../scss/picture/Junkrat/video-ability_junkra
 import video_ability_Junkrat4 from "../scss/picture/Junkrat/video-ability_junkrat3.mp4";
 import video_ability_Junkrat5 from "../scss/picture/Junkrat/video-ability_junkrat4.mp4";
 
-class McCree extends Component {
+class Junkrat extends Component {
   render() {
     const data = {
       pers: "Chacal",
@@ -61,4 +61,4 @@ class McCree extends Component {
     );
   }
 }
-export default McCree;
+export default Junkrat;
