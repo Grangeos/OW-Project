@@ -5,7 +5,7 @@ import chopper from '../scss/picture/chopper.jpg';
 import mccree from '../scss/picture/McCree/mccree.jpg';
 import leftRight from "../scss/picture/arrow.png";
 
-class SombraCarousel extends Component {
+class CarouselHome extends Component {
     render() {
         return(
             <section>
@@ -42,4 +42,4 @@ class SombraCarousel extends Component {
     }
 }
 
-export default SombraCarousel;
+export default CarouselHome;
