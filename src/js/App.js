@@ -3,12 +3,14 @@ import Header from "./Header.jsx";
 import McCree from "./McCree";
 import Sombra from './Sombra';
 import Chopper from './Chopper';
+import Junkrat from './Junkrat';
 import Lucio from './Lucio';
-import SombraCarousel from './SombraCarousel'
+import CarouselHome from './CarouselHome'
+
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const Home = () => (
-    <SombraCarousel />
+    <CarouselHome />
 )
 
 class App extends Component {
@@ -22,7 +24,9 @@ class App extends Component {
                     <Route path="/sombra" exact component={Sombra} />
                     <Route path="/chopper" exact component={Chopper} />
                     <Route path="/mccree" exact component={McCree} />
+                    <Route path="/junkrat" exact component={Junkrat} />
                     <Route path="/lucio" exact component={Lucio} />
+
                 </Switch>
             </Fragment>
         </Router>

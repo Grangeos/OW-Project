@@ -22,6 +22,9 @@ class Header extends Component {
               <Link to="/mccree">Mccree</Link>
           </NavItem>
           <NavItem className="navItem" ventKey={2} href="#">
+              <Link to="/junkrat">Chacal</Link>
+          </NavItem>
+          <NavItem className="navItem" ventKey={2} href="#">
               <Link to="/lucio">Lucio</Link>
           </NavItem>
         </Nav>
