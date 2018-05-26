@@ -3,9 +3,10 @@ import { Carousel, Caption, Item } from 'react-bootstrap';
 import sombra from '../scss/picture/Sombra/sombra.jpg';
 import chopper from '../scss/picture/chopper.jpg';
 import mccree from '../scss/picture/McCree/mccree.jpg';
+import junkrat from '../scss/picture/Junkrat/junkrat.jpg';
 import leftRight from "../scss/picture/arrow.png";
 
-class SombraCarousel extends Component {
+class CarouselHome extends Component {
     render() {
         return(
             <section>
@@ -33,6 +34,12 @@ class SombraCarousel extends Component {
                             <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
+                    <Carousel.Item style={{backgroundImage:`url(${junkrat})`}}>
+                        <Carousel.Caption>
+                            <h3>Chacal</h3>
+                            <p>Edited by NeiiKo</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
 
                 </Carousel>
 
@@ -42,4 +49,4 @@ class SombraCarousel extends Component {
     }
 }
 
-export default SombraCarousel;
+export default CarouselHome;
