@@ -3,6 +3,7 @@ import { Carousel, Caption, Item } from 'react-bootstrap';
 import sombra from '../scss/picture/Sombra/sombra.jpg';
 import chopper from '../scss/picture/chopper.jpg';
 import mccree from '../scss/picture/McCree/mccree.jpg';
+import lucio from '../scss/picture/Lucio/lucio.jpg';
 import leftRight from "../scss/picture/arrow.png";
 
 class SombraCarousel extends Component {
@@ -30,6 +31,12 @@ class SombraCarousel extends Component {
                     <Carousel.Item style={{backgroundImage:`url(${mccree})`}}>
                         <Carousel.Caption>
                             <h3>McCree</h3>
+                            <p>Edited by NeiiKo</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item style={{backgroundImage:`url(${lucio})`}}>
+                        <Carousel.Caption>
+                            <h3>Lucio</h3>
                             <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
