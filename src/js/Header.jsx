@@ -29,6 +29,7 @@ class Header extends Component {
           </NavItem>
           <NavItem className="navItem" ventKey={2} href="#">
               <Link to="/hanzo">Hanzo</Link>
+              <Link to="/mei">Mei</Link>
           </NavItem>
         </Nav>
       </Navbar>
