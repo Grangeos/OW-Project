@@ -5,6 +5,7 @@ import chopper from '../scss/picture/chopper.jpg';
 import mccree from '../scss/picture/McCree/mccree.jpg';
 import lucio from '../scss/picture/Lucio/lucio.jpg';
 import junkrat from '../scss/picture/Junkrat/junkrat.jpg';
+import hanzo from '../scss/picture/Hanzo/hanzo.png';
 import mei from '../scss/picture/Mei/mei.jpg';
 import leftRight from "../scss/picture/arrow.png";
 
@@ -48,14 +49,19 @@ class CarouselHome extends Component {
                             <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
+                    <Carousel.Item style={{backgroundImage:`url(${hanzo})`}}>
+                        <Carousel.Caption>
+                            <h3>Hanzo</h3>
+                            <p>Edited by NeiiKo</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
                     <Carousel.Item style={{backgroundImage:`url(${mei})`}}>
                         <Carousel.Caption>
                             <h3>Mei</h3>
                             <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-
-
                 </Carousel>
 
             </section>
