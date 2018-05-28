@@ -15,7 +15,7 @@ class Lucio extends Component {
   render() {
     const data = {
       pers: "Lúcio",
-      description: "Armé de son Pacificateur, McCree abat ses cibles avec une précision redoutable et se met à couvert plus vite que son ombre.",
+      description: "Sur le champ de bataille, l’ampli high-tech de Lúcio envoie des projectiles soniques sur ses ennemis et les repousse avec des ondes de choc. Ses chansons soignent ses alliés ou augmentent leur vitesse de déplacement, et il peut changer de morceau à la volée.",
       videoIntro: LucioVideo,
       nom: "Lúcio Correia dos Santos",
       age: "26 ans",
