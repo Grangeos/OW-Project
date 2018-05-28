@@ -47,6 +47,12 @@ class CarouselHome extends Component {
                             <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
+                    <Carousel.Item style={{backgroundImage:`url(${lucio})`}}>
+                        <Carousel.Caption>
+                            <h3>Faucheur</h3>
+                            <p>Edited by NeiiKo</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
 
 
                 </Carousel>
