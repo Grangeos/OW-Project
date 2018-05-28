@@ -5,6 +5,7 @@ import chopper from '../scss/picture/chopper.jpg';
 import mccree from '../scss/picture/McCree/mccree.jpg';
 import lucio from '../scss/picture/Lucio/lucio.jpg';
 import junkrat from '../scss/picture/Junkrat/junkrat.jpg';
+import reaper from '../scss/picture/Reaper/reaper.jpg';
 import leftRight from "../scss/picture/arrow.png";
 
 class CarouselHome extends Component {
@@ -47,7 +48,7 @@ class CarouselHome extends Component {
                             <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item style={{backgroundImage:`url(${lucio})`}}>
+                    <Carousel.Item style={{backgroundImage:`url(${reaper})`}}>
                         <Carousel.Caption>
                             <h3>Faucheur</h3>
                             <p>Edited by NeiiKo</p>
