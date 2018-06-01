@@ -1,9 +1,46 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import cx from "classnames";
 import { ListGroup, ListGroupItem, Jumbotron, Image, Button, Collapse, Well, Row, Col} from "react-bootstrap";
 import Video from 'react-video-cover';
 
 import BackgroundTabs from "../scss/picture/ImageBackground.jpg";
+
+class HeroVideo extends Component {
+  constructor(props, context) {
+    super(props, context);
+
+    this.initialState = props.playing;
+  }
+
+  componentWillReceiveProps({ playing }) {
+    const { videoRef } = this;
+
+    if (videoRef) {
+      if (playing) {
+        videoRef.play();
+      } else {
+        videoRef.pause();
+      }
+    }
+  }
+
+  render() {
+    const { src, ...props } = this.props;
+
+    return (
+      <Video
+        style={{
+          objectifFit:'cover',
+          width:'100%',
+          height:'100%',
+          border: "3px white solid",
+      }}
+      videoOptions={{ src, autoPlay: this.initialState, loop: true, ref: videoRef => this.videoRef = videoRef, muted: true, ...props }}
+      />
+    );
+  }
+}
 
 class HeroComponent extends Component {
     constructor(props, context) {
@@ -67,14 +104,13 @@ class HeroComponent extends Component {
                 </li>
               </ul>
               <hr/>
-
               <div className="ability">
               <Row className="button">
                   {
                       skills.map(({ img, titre }, i) => (
                           <Col className={ cx({ active: activeTab === i})}>
                               <Button block onClick={() => this.setActiveTab(i)}>
-                                  <Image src={img} alt={titre} responsive="responsive"/>
+                                  <Image src={img} alt={titre} responsive />
                               </Button>
                           </Col>
                       ))
@@ -92,16 +128,7 @@ class HeroComponent extends Component {
                                         style={{
                                           overflow: "hidden",
                                       }}>
-                                      <Video
-                                        style={{
-                                          objectifFit:'cover',
-                                          width:'100%',
-                                          height:'100%',
-                                          border: "3px white solid",
-
-                                      }}
-                                      videoOptions={{ src:videodesc, autoPlay: true, loop: true, muted: true}}
-                                      />
+                                      <HeroVideo src={videodesc} playing={activeTab === i} />
                                       </div>
                                   </Well>
                               </div>
