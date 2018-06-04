@@ -14,8 +14,8 @@ import video_ability_reaper4 from "../scss/picture/Reaper/video-ability_reaper3.
 class Reaper extends Component {
   render() {
     const data = {
-      pers: "Reaper",
-      description: "Armé de son Pacificateur, McCree abat ses cibles avec une précision redoutable et se met à couvert plus vite que son ombre.",
+      pers: "Faucheur",
+      description: "Avec Pompes funèbres, sa capacité spectrale lui permettant d’éviter tout dégât et son pouvoir à se déplacer dans les ombres, Faucheur est l’un des êtres les plus redoutables de la planète.",
       videoIntro: ReaperVideo,
       nom: "inconnue",
       age: "inconnue",
