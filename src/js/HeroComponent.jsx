@@ -64,7 +64,7 @@ class HeroComponent extends Component {
     render() {
         const { activeTab } = this.state;
 
-        const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills, skin } = this.props;
+        const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = this.props;
         return(
           <div className="ComposentHero" style={{backgroundImage:`url(${BackgroundTabs})`}}>
             <Jumbotron className="tabs-panel">
