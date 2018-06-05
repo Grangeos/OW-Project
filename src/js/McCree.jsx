@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
+import { Carousel} from "react-bootstrap";
+
 
 import iconAbility1 from "../scss/picture/McCree/IconAbility.png";
 import iconAbility2 from "../scss/picture/McCree/IconAbility1.png";
@@ -10,6 +12,7 @@ import video_ability_mccree1 from "../scss/picture/McCree/video-ability_mccree1.
 import video_ability_mccree2 from "../scss/picture/McCree/video-ability_mccree2.mp4";
 import video_ability_mccree3 from "../scss/picture/McCree/video-ability_mccree3.mp4";
 import video_ability_mccree4 from "../scss/picture/McCree/video-ability_mccree4.mp4";
+import photo from "../scss/picture/McCree/mccree.jpg";
 
 class McCree extends Component {
   render() {
@@ -49,7 +52,20 @@ class McCree extends Component {
 
     const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;
     return (
-      <HeroComponent {...data}/>
+      <HeroComponent {...data}>
+        <Carousel.Item style={{backgroundImage:`url(${photo})`}} />
+          <Carousel.Caption>
+            <h3>{pers}</h3>
+          </Carousel.Caption>
+        <Carousel.Item style={{backgroundImage:`url(${photo})`}} />
+            <Carousel.Caption>
+              <h3>{pers}</h3>
+            </Carousel.Caption>
+              {/* Exemple */}
+      </HeroComponent>
+
+
+
     );
   }
 }

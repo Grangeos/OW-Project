@@ -15,7 +15,7 @@ class CarouselHome extends Component {
     render() {
         return(
             <section>
-                <Carousel
+                <Carousel className="carouselHome"
                 interval={5000}
                 pauseOnHover={false}
                 prevIcon={<img src={leftRight} />}

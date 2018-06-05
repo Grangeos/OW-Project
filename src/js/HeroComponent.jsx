@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import cx from "classnames";
-import { ListGroup, ListGroupItem, Jumbotron, Image, Button, Collapse, Well, Row, Col} from "react-bootstrap";
+import { ListGroup, ListGroupItem, Jumbotron, Image, Button, Collapse, Well, Row, Col, Carousel} from "react-bootstrap";
 import Video from 'react-video-cover';
 
 import BackgroundTabs from "../scss/picture/ImageBackground.jpg";
@@ -137,6 +137,40 @@ class HeroComponent extends Component {
                   }
               </Row>
             </div>
+            <hr/>
+            <Carousel className="carouselSkin"
+            interval={5000}
+            pauseOnHover={false}
+            >
+              <Carousel.Item style={{backgroundImage:`url(${this.props.background})`}}>
+                <Carousel.Caption>
+                  <h3> {this.props.children} </h3>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{backgroundImage:`url(${this.props.background})`}}>
+                <Carousel.Caption>
+                  <h3> {this.props.children} </h3>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{backgroundImage:`url(${this.props.background})`}}>
+                <Carousel.Caption>
+                  <h3> {this.props.children} </h3>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{backgroundImage:`url(${this.props.background})`}}>
+                <Carousel.Caption>
+                  <h3> {this.props.children} </h3>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{backgroundImage:`url(${this.props.background})`}}>
+                <Carousel.Caption>
+                  <h3> {this.props.children} </h3>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+
+            {/* !!!!!!!!!! A modifier si possible pour que ce soit plus propre !!!!!!!!!!!! */}
+
             </Jumbotron>
           </div>
 
