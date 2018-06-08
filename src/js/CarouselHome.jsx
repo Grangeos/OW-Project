@@ -9,6 +9,7 @@ import reaper from '../scss/picture/Reaper/reaper.jpg';
 import mei from '../scss/picture/Mei/mei.jpg';
 import hanzo from '../scss/picture/Hanzo/hanzo.png';
 import mercy from '../scss/picture/Mercy/mercy.jpg';
+import pharah from '../scss/picture/Pharah/pharah.jpg';
 import leftRight from "../scss/picture/arrow.png";
 
 class CarouselHome extends Component {
@@ -72,6 +73,12 @@ class CarouselHome extends Component {
                     <Carousel.Item style={{backgroundImage:`url(${mercy})`}}>
                         <Carousel.Caption>
                             <h3>Ange</h3>
+                            <p>Edited by NeiiKo</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item style={{backgroundImage:`url(${pharah})`}}>
+                        <Carousel.Caption>
+                            <h3>Pharah</h3>
                             <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>

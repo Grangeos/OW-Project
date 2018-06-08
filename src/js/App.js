@@ -9,6 +9,7 @@ import Reaper from './Reaper';
 import Mei from './Mei';
 import Hanzo from './Hanzo';
 import Mercy from './Mercy';
+import Pharah from './Pharah';
 import CarouselHome from './CarouselHome'
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -34,6 +35,7 @@ class App extends Component {
                     <Route path="/mei" exact component={Mei} />
                     <Route path="/hanzo" exact component={Hanzo} />
                     <Route path="/mercy" exact component={Mercy} />
+                    <Route path="/pharah" exact component={Pharah} />
                 </Switch>
             </Fragment>
         </Router>
