@@ -9,6 +9,8 @@ import reaper from '../scss/picture/Reaper/reaper.jpg';
 import mei from '../scss/picture/Mei/mei.jpg';
 import hanzo from '../scss/picture/Hanzo/hanzo.png';
 import mercy from '../scss/picture/Mercy/mercy.jpg';
+import doomfist from '../scss/picture/Doomfist/doomfist.jpg';
+import genji from '../scss/picture/Genji/genji.jpg';
 import pharah from '../scss/picture/Pharah/pharah.jpg';
 import leftRight from "../scss/picture/arrow.png";
 
@@ -76,14 +78,25 @@ class CarouselHome extends Component {
                             <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item style={{backgroundImage:`url(${pharah})`}}>
+                    <Carousel.Item style={{backgroundImage:`url(${doomfist})`}}>
+                        <Carousel.Caption>
+                            <h3>Doomfist</h3>
+                            <p>Edited by NeiiKo</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item style={{backgroundImage:`url(${genji})`}}>
+                      <Carousel.Caption>
+                       <h3>Genji</h3>
+                       <p>Edited by NeiiKo</p>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                  <Carousel.Item style={{backgroundImage:`url(${pharah})`}}>
                         <Carousel.Caption>
                             <h3>Pharah</h3>
                             <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-
             </section>
 
         );
