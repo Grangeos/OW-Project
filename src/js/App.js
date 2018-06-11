@@ -9,6 +9,7 @@ import Reaper from './Reaper';
 import Mei from './Mei';
 import Hanzo from './Hanzo';
 import Mercy from './Mercy';
+import Doomfist from './Doomfist';
 import Genji from './Genji';
 import CarouselHome from './CarouselHome'
 
@@ -35,7 +36,9 @@ class App extends Component {
                     <Route path="/mei" exact component={Mei} />
                     <Route path="/hanzo" exact component={Hanzo} />
                     <Route path="/mercy" exact component={Mercy} />
+                    <Route path="/doomfist" exact component={Doomfist} />
                     <Route path="/genji" exact component={Genji} />
+                    <Route path="/doomfist" exact component={Doomfist} />
                 </Switch>
             </Fragment>
         </Router>

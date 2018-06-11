@@ -92,7 +92,7 @@ class Header extends Component {
               <Link to="/lucio">Lucio</Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/ange">Ange</Link>
+              <Link to="/mercy">Ange</Link>
             </MenuItem>
             <MenuItem>
               <Link to="/moira">Moira</Link>
