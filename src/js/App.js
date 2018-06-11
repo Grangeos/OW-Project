@@ -11,7 +11,8 @@ import Hanzo from './Hanzo';
 import Mercy from './Mercy';
 import Doomfist from './Doomfist';
 import Genji from './Genji';
-import CarouselHome from './CarouselHome'
+import Pharah from './Pharah';
+import CarouselHome from './CarouselHome';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -38,7 +39,7 @@ class App extends Component {
                     <Route path="/mercy" exact component={Mercy} />
                     <Route path="/doomfist" exact component={Doomfist} />
                     <Route path="/genji" exact component={Genji} />
-                    <Route path="/doomfist" exact component={Doomfist} />
+                    <Route path="/pharah" exact component={Pharah} />
                 </Switch>
             </Fragment>
         </Router>

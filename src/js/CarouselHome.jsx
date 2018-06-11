@@ -11,7 +11,7 @@ import hanzo from '../scss/picture/Hanzo/hanzo.png';
 import mercy from '../scss/picture/Mercy/mercy.jpg';
 import doomfist from '../scss/picture/Doomfist/doomfist.jpg';
 import genji from '../scss/picture/Genji/genji.jpg';
-import doomfist from '../scss/picture/Doomfist/doomfist.jpg';
+import pharah from '../scss/picture/Pharah/pharah.jpg';
 import leftRight from "../scss/picture/arrow.png";
 
 class CarouselHome extends Component {
@@ -89,6 +89,12 @@ class CarouselHome extends Component {
                        <h3>Genji</h3>
                        <p>Edited by NeiiKo</p>
                       </Carousel.Caption>
+                    </Carousel.Item>
+                  <Carousel.Item style={{backgroundImage:`url(${pharah})`}}>
+                        <Carousel.Caption>
+                            <h3>Pharah</h3>
+                            <p>Edited by NeiiKo</p>
+                        </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
             </section>
