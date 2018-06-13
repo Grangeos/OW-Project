@@ -29,7 +29,7 @@ class Header extends Component {
               <Link to="/reaper">Faucheur</Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/soldat">Soldat:76</Link>
+              <Link to="/soldier">Soldat-76</Link>
             </MenuItem>
             <MenuItem>
               <Link to="/sombra">Sombra</Link>
