@@ -13,6 +13,7 @@ import doomfist from '../scss/picture/Doomfist/doomfist.jpg';
 import genji from '../scss/picture/Genji/genji.jpg';
 import pharah from '../scss/picture/Pharah/pharah.jpg';
 import soldier from '../scss/picture/Soldier/soldier.jpg';
+import torbjorn from '../scss/picture/Torbjorn/torbjorn.png';
 import leftRight from "../scss/picture/arrow.png";
 
 class CarouselHome extends Component {
@@ -97,7 +98,7 @@ class CarouselHome extends Component {
                             <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item style={{backgroundImage:`url(${soldier})`}}>
+                    <Carousel.Item style={{backgroundImage:`url(${torbjorn})`}}>
                           <Carousel.Caption>
                               <h3>Soldat-76</h3>
                               <p>Edited by NeiiKo</p>
