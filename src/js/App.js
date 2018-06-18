@@ -13,6 +13,7 @@ import Doomfist from './Doomfist';
 import Genji from './Genji';
 import Pharah from './Pharah';
 import Soldier from './Soldier';
+import Bastion from './Bastion';
 import CarouselHome from './CarouselHome';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -42,6 +43,7 @@ class App extends Component {
                     <Route path="/genji" exact component={Genji} />
                     <Route path="/pharah" exact component={Pharah} />
                     <Route path="/soldier" exact component={Soldier} />
+                    <Route path="/bastion" exact component={Bastion} />
                 </Switch>
             </Fragment>
         </Router>
