@@ -13,6 +13,7 @@ import Doomfist from './Doomfist';
 import Genji from './Genji';
 import Pharah from './Pharah';
 import Soldier from './Soldier';
+import Bastion from './Bastion';
 import Torbjorn from './Torbjorn';
 import CarouselHome from './CarouselHome';
 
@@ -43,6 +44,7 @@ class App extends Component {
                     <Route path="/genji" exact component={Genji} />
                     <Route path="/pharah" exact component={Pharah} />
                     <Route path="/soldier" exact component={Soldier} />
+                    <Route path="/bastion" exact component={Bastion} />
                     <Route path="/torbjorn" exact component={Torbjorn} />
                 </Switch>
             </Fragment>
