@@ -15,6 +15,7 @@ import Pharah from './Pharah';
 import Soldier from './Soldier';
 import Bastion from './Bastion';
 import Torbjorn from './Torbjorn';
+import Fatale from './Fatale';
 import CarouselHome from './CarouselHome';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -46,6 +47,7 @@ class App extends Component {
                     <Route path="/soldier" exact component={Soldier} />
                     <Route path="/bastion" exact component={Bastion} />
                     <Route path="/torbjorn" exact component={Torbjorn} />
+                    <Route path="/fatale" exact component={Fatale} />
                 </Switch>
             </Fragment>
         </Router>
