@@ -15,6 +15,7 @@ import pharah from '../scss/picture/Pharah/pharah.jpg';
 import soldier from '../scss/picture/Soldier/soldier.jpg';
 import bastion from '../scss/picture/Bastion/bastion.jpg';
 import torbjorn from '../scss/picture/Torbjorn/torbjorn.png';
+import fatale from '../scss/picture/Fatale/fatale.jpg';
 import leftRight from "../scss/picture/arrow.png";
 
 class CarouselHome extends Component {
@@ -111,7 +112,13 @@ class CarouselHome extends Component {
                               <p>Edited by NeiiKo</p>
                           </Carousel.Caption>
                       </Carousel.Item>
-                      
+                      <Carousel.Item style={{backgroundImage:`url(${fatale})`}}>
+                            <Carousel.Caption>
+                                <h3>Fatale</h3>
+                                <p>Edited by NeiiKo</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
                 </Carousel>
             </section>
 
