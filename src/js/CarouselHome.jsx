@@ -16,6 +16,7 @@ import soldier from '../scss/picture/Soldier/soldier.jpg';
 import bastion from '../scss/picture/Bastion/bastion.jpg';
 import torbjorn from '../scss/picture/Torbjorn/torbjorn.png';
 import fatale from '../scss/picture/Fatale/fatale.jpg';
+import dva from '../scss/picture/Dva/dva.jpg';
 import leftRight from "../scss/picture/arrow.png";
 
 class CarouselHome extends Component {
@@ -115,6 +116,12 @@ class CarouselHome extends Component {
                       <Carousel.Item style={{backgroundImage:`url(${fatale})`}}>
                             <Carousel.Caption>
                                 <h3>Fatale</h3>
+                                <p>Edited by NeiiKo</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item style={{backgroundImage:`url(${dva})`}}>
+                            <Carousel.Caption>
+                                <h3>D.Va</h3>
                                 <p>Edited by NeiiKo</p>
                             </Carousel.Caption>
                         </Carousel.Item>
