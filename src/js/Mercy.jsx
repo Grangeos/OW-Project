@@ -61,7 +61,7 @@ class Mercy extends Component {
       ]
     }
 
-    const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;
+
     return (
       <HeroComponent {...data}/>
     );

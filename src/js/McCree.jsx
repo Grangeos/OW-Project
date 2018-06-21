@@ -50,16 +50,16 @@ class McCree extends Component {
       ]
     }
 
-    const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;
+
     return (
       <HeroComponent {...data}>
         <Carousel.Item style={{backgroundImage:`url(${photo})`}} />
           <Carousel.Caption>
-            <h3>{pers}</h3>
+            <h3>{data.pers}</h3>
           </Carousel.Caption>
         <Carousel.Item style={{backgroundImage:`url(${photo})`}} />
             <Carousel.Caption>
-              <h3>{pers}</h3>
+              <h3>{data.pers}</h3>
             </Carousel.Caption>
               {/* Exemple */}
       </HeroComponent>
