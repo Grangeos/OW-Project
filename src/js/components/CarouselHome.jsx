@@ -118,6 +118,12 @@ class CarouselHome extends Component {
                                 <p>Edited by NeiiKo</p>
                             </Carousel.Caption>
                         </Carousel.Item>
+                        <Carousel.Item style={{backgroundImage:`url(${dva})`}}>
+                            <Carousel.Caption>
+                                <h3>D.Va</h3>
+                                <p>Edited by NeiiKo</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
 
                 </Carousel>
             </section>
