@@ -1,19 +1,20 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
 
-import iconAbility1 from "../scss/picture/Mercy/IconAbility.png";
-import iconAbility2 from "../scss/picture/Mercy/IconAbility1.png";
-import iconAbility3 from "../scss/picture/Mercy/IconAbility2.png";
-import iconAbility4 from "../scss/picture/Mercy/IconAbility3.png";
-import iconAbility5 from "../scss/picture/Mercy/IconAbility4.png";
-import iconAbility6 from "../scss/picture/Mercy/IconAbility5.png";
-import MercyVideo from "../scss/picture/Mercy/VideoIntroMercy.mp4";
-import video_ability_mercy1 from "../scss/picture/Mercy/video-ability_mercy1.mp4";
-import video_ability_mercy2 from "../scss/picture/Mercy/video-ability_mercy2.mp4";
-import video_ability_mercy3 from "../scss/picture/Mercy/video-ability_mercy3.mp4";
-import video_ability_mercy4 from "../scss/picture/Mercy/video-ability_mercy4.mp4";
-import video_ability_mercy5 from "../scss/picture/Mercy/video-ability_mercy5.mp4";
-import video_ability_mercy6 from "../scss/picture/Mercy/video-ability_mercy6.mp4";
+import iconAbility1 from "../../scss/picture/Mercy/IconAbility.png";
+import iconAbility2 from "../../scss/picture/Mercy/IconAbility1.png";
+import iconAbility3 from "../../scss/picture/Mercy/IconAbility2.png";
+import iconAbility4 from "../../scss/picture/Mercy/IconAbility3.png";
+import iconAbility5 from "../../scss/picture/Mercy/IconAbility4.png";
+import iconAbility6 from "../../scss/picture/Mercy/IconAbility5.png";
+import MercyVideo from "../../scss/picture/Mercy/VideoIntroMercy.mp4";
+import video_ability_mercy1 from "../../scss/picture/Mercy/video-ability_mercy1.mp4";
+import video_ability_mercy2 from "../../scss/picture/Mercy/video-ability_mercy2.mp4";
+import video_ability_mercy3 from "../../scss/picture/Mercy/video-ability_mercy3.mp4";
+import video_ability_mercy4 from "../../scss/picture/Mercy/video-ability_mercy4.mp4";
+import video_ability_mercy5 from "../../scss/picture/Mercy/video-ability_mercy5.mp4";
+import video_ability_mercy6 from "../../scss/picture/Mercy/video-ability_mercy6.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Mercy extends Component {
   render() {
@@ -58,7 +59,15 @@ class Mercy extends Component {
           desc: "Confère à Ange la capacité à voler. Ses capacités sont améliorées.",
           videodesc: video_ability_mercy6
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
 

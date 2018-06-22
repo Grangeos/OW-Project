@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
 
-import iconAbility1 from "../scss/picture/Torbjorn/iconAbility.png";
-import iconAbility2 from "../scss/picture/Torbjorn/iconAbility1.png";
-import iconAbility3 from "../scss/picture/Torbjorn/iconAbility2.png";
-import iconAbility4 from "../scss/picture/Torbjorn/iconAbility3.png";
-import iconAbility5 from "../scss/picture/Torbjorn/iconAbility4.png";
-import TorbjornVideo from "../scss/picture/Torbjorn/VideoIntroTorbjorn.mp4";
-import video_ability_Torbjorn1 from "../scss/picture/Torbjorn/video-ability_torbjorn1.mp4";
-import video_ability_Torbjorn2 from "../scss/picture/Torbjorn/video-ability_torbjorn2.mp4";
-import video_ability_Torbjorn3 from "../scss/picture/Torbjorn/video-ability_torbjorn3.mp4";
-import video_ability_Torbjorn4 from "../scss/picture/Torbjorn/video-ability_torbjorn4.mp4";
-import video_ability_Torbjorn5 from "../scss/picture/Torbjorn/video-ability_torbjorn5.mp4";
+import iconAbility1 from "../../scss/picture/Torbjorn/iconAbility.png";
+import iconAbility2 from "../../scss/picture/Torbjorn/iconAbility1.png";
+import iconAbility3 from "../../scss/picture/Torbjorn/iconAbility2.png";
+import iconAbility4 from "../../scss/picture/Torbjorn/iconAbility3.png";
+import iconAbility5 from "../../scss/picture/Torbjorn/iconAbility4.png";
+import TorbjornVideo from "../../scss/picture/Torbjorn/VideoIntroTorbjorn.mp4";
+import video_ability_Torbjorn1 from "../../scss/picture/Torbjorn/video-ability_torbjorn1.mp4";
+import video_ability_Torbjorn2 from "../../scss/picture/Torbjorn/video-ability_torbjorn2.mp4";
+import video_ability_Torbjorn3 from "../../scss/picture/Torbjorn/video-ability_torbjorn3.mp4";
+import video_ability_Torbjorn4 from "../../scss/picture/Torbjorn/video-ability_torbjorn4.mp4";
+import video_ability_Torbjorn5 from "../../scss/picture/Torbjorn/video-ability_torbjorn5.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Torbjorn extends Component {
   render() {
@@ -51,7 +52,15 @@ class Torbjorn extends Component {
           desc: "Déclencher la surchauffe de sa forge personnelle permet à Torbjörn de gagner une quantité significative d’armure et de ferraille, mais aussi d’attaquer (et de construire ou de réparer des tourelles) bien plus rapidement qu’en temps normal.",
           videodesc: video_ability_Torbjorn5
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
 

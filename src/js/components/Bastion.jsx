@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
 
-import iconAbility1 from "../scss/picture/Bastion/IconAbility.png";
-import iconAbility2 from "../scss/picture/Bastion/IconAbility1.png";
-import iconAbility3 from "../scss/picture/Bastion/IconAbility2.png";
-import iconAbility4 from "../scss/picture/Bastion/IconAbility3.png";
-import iconAbility5 from "../scss/picture/Bastion/IconAbility4.png";
-import BastionVideo from "../scss/picture/Bastion/VideoIntroBastion.mp4";
-import video_ability_Bastion1 from "../scss/picture/Bastion/video-ability_bastion.mp4";
-import video_ability_Bastion2 from "../scss/picture/Bastion/video-ability_bastion1.mp4";
-import video_ability_Bastion3 from "../scss/picture/Bastion/video-ability_bastion2.mp4";
-import video_ability_Bastion4 from "../scss/picture/Bastion/video-ability_bastion3.mp4";
-import video_ability_Bastion5 from "../scss/picture/Bastion/video-ability_bastion4.mp4";
+import iconAbility1 from "../../scss/picture/Bastion/IconAbility.png";
+import iconAbility2 from "../../scss/picture/Bastion/IconAbility1.png";
+import iconAbility3 from "../../scss/picture/Bastion/IconAbility2.png";
+import iconAbility4 from "../../scss/picture/Bastion/IconAbility3.png";
+import iconAbility5 from "../../scss/picture/Bastion/IconAbility4.png";
+import BastionVideo from "../../scss/picture/Bastion/VideoIntroBastion.mp4";
+import video_ability_Bastion1 from "../../scss/picture/Bastion/video-ability_bastion.mp4";
+import video_ability_Bastion2 from "../../scss/picture/Bastion/video-ability_bastion1.mp4";
+import video_ability_Bastion3 from "../../scss/picture/Bastion/video-ability_bastion2.mp4";
+import video_ability_Bastion4 from "../../scss/picture/Bastion/video-ability_bastion3.mp4";
+import video_ability_Bastion5 from "../../scss/picture/Bastion/video-ability_bastion4.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Bastion extends Component {
   render() {
@@ -51,7 +52,15 @@ class Bastion extends Component {
           desc: "En mode Tank, Bastion déploie des chenilles et un puissant canon à longue portée. Les tirs explosifs du canon démolissent les cibles présentes dans son large rayon d’explosion, mais Bastion ne peut conserver ce mode que pour un temps limité.",
           videodesc: video_ability_Bastion5
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
 

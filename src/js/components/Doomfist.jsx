@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
 
-import iconAbility1 from "../scss/picture/Doomfist/IconAbility.png";
-import iconAbility2 from "../scss/picture/Doomfist/IconAbility1.png";
-import iconAbility3 from "../scss/picture/Doomfist/IconAbility2.png";
-import iconAbility4 from "../scss/picture/Doomfist/IconAbility3.png";
-import iconAbility5 from "../scss/picture/Doomfist/IconAbility4.png";
-import DoomfistVideo from "../scss/picture/Doomfist/VideoIntroDoomfist.mp4";
-import video_ability_Doomfist1 from "../scss/picture/Doomfist/video-ability_doomfist.mp4";
-import video_ability_Doomfist2 from "../scss/picture/Doomfist/video-ability_doomfist1.mp4";
-import video_ability_Doomfist3 from "../scss/picture/Doomfist/video-ability_doomfist2.mp4";
-import video_ability_Doomfist4 from "../scss/picture/Doomfist/video-ability_doomfist3.mp4";
-import video_ability_Doomfist5 from "../scss/picture/Doomfist/video-ability_doomfist4.mp4";
+import iconAbility1 from "../../scss/picture/Doomfist/IconAbility.png";
+import iconAbility2 from "../../scss/picture/Doomfist/IconAbility1.png";
+import iconAbility3 from "../../scss/picture/Doomfist/IconAbility2.png";
+import iconAbility4 from "../../scss/picture/Doomfist/IconAbility3.png";
+import iconAbility5 from "../../scss/picture/Doomfist/IconAbility4.png";
+import DoomfistVideo from "../../scss/picture/Doomfist/VideoIntroDoomfist.mp4";
+import video_ability_Doomfist1 from "../../scss/picture/Doomfist/video-ability_doomfist.mp4";
+import video_ability_Doomfist2 from "../../scss/picture/Doomfist/video-ability_doomfist1.mp4";
+import video_ability_Doomfist3 from "../../scss/picture/Doomfist/video-ability_doomfist2.mp4";
+import video_ability_Doomfist4 from "../../scss/picture/Doomfist/video-ability_doomfist3.mp4";
+import video_ability_Doomfist5 from "../../scss/picture/Doomfist/video-ability_doomfist4.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Doomfist extends Component {
   render() {
@@ -52,7 +53,15 @@ class Doomfist extends Component {
           desc: "Doomfist bondit dans les airs, puis s’écrase au sol, infligeant alors d’importants dégâts.",
           videodesc: video_ability_Doomfist5
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
 

@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import cx from "classnames";
 import { Jumbotron, Image, Button, Collapse, Well, Row, Col, Carousel} from "react-bootstrap";
 import Video from 'react-video-cover';
+import map from 'lodash/map';
 
-import BackgroundTabs from "../scss/picture/ImageBackground.jpg";
+
+import BackgroundTabs from "../../scss/picture/ImageBackground.jpg";
 
 class HeroVideo extends Component {
   constructor(props, context) {
@@ -63,7 +65,7 @@ class HeroComponent extends Component {
     render() {
         const { activeTab } = this.state;
 
-        const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = this.props;
+        const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills, skin, firstskinname} = this.props;
         return(
           <div className="ComposentHero" style={{backgroundImage:`url(${BackgroundTabs})`}}>
             <Jumbotron className="tabs-panel">
@@ -137,39 +139,21 @@ class HeroComponent extends Component {
               </Row>
             </div>
             <hr/>
-            <Carousel className="carouselSkin"
-            interval={5000}
-            pauseOnHover={false}
-            >
-              <Carousel.Item style={{backgroundImage:`url(${this.props.background})`}}>
-                <Carousel.Caption>
-                  <h3> {this.props.children} </h3>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item style={{backgroundImage:`url(${this.props.background})`}}>
-                <Carousel.Caption>
-                  <h3> {this.props.children} </h3>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item style={{backgroundImage:`url(${this.props.background})`}}>
-                <Carousel.Caption>
-                  <h3> {this.props.children} </h3>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item style={{backgroundImage:`url(${this.props.background})`}}>
-                <Carousel.Caption>
-                  <h3> {this.props.children} </h3>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item style={{backgroundImage:`url(${this.props.background})`}}>
-                <Carousel.Caption>
-                  <h3> {this.props.children} </h3>
-                </Carousel.Caption>
-              </Carousel.Item>
-            </Carousel>
 
-            {/* !!!!!!!!!! A modifier si possible pour que ce soit plus propre !!!!!!!!!!!! */}
-
+              <Carousel className="carouselSkin"
+                interval={5000}
+                pauseOnHover={false}
+              >
+              {
+              skin.map(({ imgskin,skinname }) => (
+                <Carousel.Item className="item" style={{backgroundImage:`url(${imgskin})`}}>
+                  <Carousel.Caption>
+                    <h3> {skinname} </h3>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              ))
+              }
+              </Carousel>
             </Jumbotron>
           </div>
 

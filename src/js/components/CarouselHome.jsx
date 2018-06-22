@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
-import { Carousel } from 'react-bootstrap';
-import sombra from '../scss/picture/Sombra/sombra.jpg';
-import chopper from '../scss/picture/chopper.jpg';
-import mccree from '../scss/picture/McCree/mccree.jpg';
-import lucio from '../scss/picture/Lucio/lucio.jpg';
-import junkrat from '../scss/picture/Junkrat/junkrat.jpg';
-import reaper from '../scss/picture/Reaper/reaper.jpg';
-import mei from '../scss/picture/Mei/mei.jpg';
-import hanzo from '../scss/picture/Hanzo/hanzo.png';
-import mercy from '../scss/picture/Mercy/mercy.jpg';
-import doomfist from '../scss/picture/Doomfist/doomfist.jpg';
-import genji from '../scss/picture/Genji/genji.jpg';
-import pharah from '../scss/picture/Pharah/pharah.jpg';
-import bastion from '../scss/picture/Bastion/bastion.jpg';
-import torbjorn from '../scss/picture/Torbjorn/torbjorn.png';
-import fatale from '../scss/picture/Fatale/fatale.jpg';
-import dva from '../scss/picture/Dva/dva.jpg';
-import leftRight from "../scss/picture/arrow.png";
+import { Carousel, Caption, Item } from 'react-bootstrap';
+import sombra from '../../scss/picture/Sombra/sombra.jpg';
+import chopper from '../../scss/picture/chopper.jpg';
+import mccree from '../../scss/picture/McCree/mccree.jpg';
+import lucio from '../../scss/picture/Lucio/lucio.jpg';
+import junkrat from '../../scss/picture/Junkrat/junkrat.jpg';
+import reaper from '../../scss/picture/Reaper/reaper.jpg';
+import mei from '../../scss/picture/Mei/mei.jpg';
+import hanzo from '../../scss/picture/Hanzo/hanzo.png';
+import mercy from '../../scss/picture/Mercy/mercy.jpg';
+import doomfist from '../../scss/picture/Doomfist/doomfist.jpg';
+import genji from '../../scss/picture/Genji/genji.jpg';
+import pharah from '../../scss/picture/Pharah/pharah.jpg';
+import soldier from '../../scss/picture/Soldier/soldier.jpg';
+import bastion from '../../scss/picture/Bastion/bastion.jpg';
+import torbjorn from '../../scss/picture/Torbjorn/torbjorn.png';
+import fatale from '../../scss/picture/Fatale/fatale.jpg';
+import dva from '../../scss/picture/Dva/dva.jpg';
+import leftRight from "../../scss/picture/arrow.png";
 
 class CarouselHome extends Component {
     render() {

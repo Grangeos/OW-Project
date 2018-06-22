@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
 
-import iconAbility from "../scss/picture/Sombra/IconAbility.png";
-import iconAbility1 from "../scss/picture/Sombra/IconAbility1.png";
-import iconAbility2 from "../scss/picture/Sombra/IconAbility2.png";
-import iconAbility3 from "../scss/picture/Sombra/IconAbility3.png";
-import iconAbility4 from "../scss/picture/Sombra/IconAbility4.png";
-import SombraVideo from "../scss/picture/Sombra/VideoIntroSombra.mp4";
-import video_ability_sombra1 from "../scss/picture/Sombra/video-ability_sombra.mp4";
-import video_ability_sombra2 from "../scss/picture/Sombra/video-ability_sombra1.mp4";
-import video_ability_sombra3 from "../scss/picture/Sombra/video-ability_sombra2.mp4";
-import video_ability_sombra4 from "../scss/picture/Sombra/video-ability_sombra3.mp4";
-import video_ability_sombra5 from "../scss/picture/Sombra/video-ability_sombra4.mp4";
+import iconAbility from "../../scss/picture/Sombra/IconAbility.png";
+import iconAbility1 from "../../scss/picture/Sombra/IconAbility1.png";
+import iconAbility2 from "../../scss/picture/Sombra/IconAbility2.png";
+import iconAbility3 from "../../scss/picture/Sombra/IconAbility3.png";
+import iconAbility4 from "../../scss/picture/Sombra/IconAbility4.png";
+import SombraVideo from "../../scss/picture/Sombra/VideoIntroSombra.mp4";
+import video_ability_sombra1 from "../../scss/picture/Sombra/video-ability_sombra.mp4";
+import video_ability_sombra2 from "../../scss/picture/Sombra/video-ability_sombra1.mp4";
+import video_ability_sombra3 from "../../scss/picture/Sombra/video-ability_sombra2.mp4";
+import video_ability_sombra4 from "../../scss/picture/Sombra/video-ability_sombra3.mp4";
+import video_ability_sombra5 from "../../scss/picture/Sombra/video-ability_sombra4.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Sombra extends Component {
   constructor(props, context) {
@@ -67,7 +68,15 @@ class Sombra extends Component {
           desc: "Sombra génère une large vague d’énergie électromagnétique qui désactive les boucliers ennemis et pirate tous les adversaires touchés par l’onde de choc.",
           videodesc: video_ability_sombra5
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
 
