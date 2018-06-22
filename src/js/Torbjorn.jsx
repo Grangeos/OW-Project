@@ -11,7 +11,7 @@ import video_ability_Torbjorn1 from "../scss/picture/Torbjorn/video-ability_torb
 import video_ability_Torbjorn2 from "../scss/picture/Torbjorn/video-ability_torbjorn2.mp4";
 import video_ability_Torbjorn3 from "../scss/picture/Torbjorn/video-ability_torbjorn3.mp4";
 import video_ability_Torbjorn4 from "../scss/picture/Torbjorn/video-ability_torbjorn4.mp4";
-import video_ability_Torbjorn5 from "../scss/picture/Torbjorn/video-ability_torbjorn5.mp4"; 
+import video_ability_Torbjorn5 from "../scss/picture/Torbjorn/video-ability_torbjorn5.mp4";
 
 class Torbjorn extends Component {
   render() {
@@ -54,7 +54,7 @@ class Torbjorn extends Component {
       ]
     }
 
-    const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;
+
     return (
       <HeroComponent {...data}/>
     );

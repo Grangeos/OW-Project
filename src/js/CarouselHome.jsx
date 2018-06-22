@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel, Caption, Item } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import sombra from '../scss/picture/Sombra/sombra.jpg';
 import chopper from '../scss/picture/chopper.jpg';
 import mccree from '../scss/picture/McCree/mccree.jpg';
@@ -12,7 +12,6 @@ import mercy from '../scss/picture/Mercy/mercy.jpg';
 import doomfist from '../scss/picture/Doomfist/doomfist.jpg';
 import genji from '../scss/picture/Genji/genji.jpg';
 import pharah from '../scss/picture/Pharah/pharah.jpg';
-import soldier from '../scss/picture/Soldier/soldier.jpg';
 import bastion from '../scss/picture/Bastion/bastion.jpg';
 import torbjorn from '../scss/picture/Torbjorn/torbjorn.png';
 import fatale from '../scss/picture/Fatale/fatale.jpg';
@@ -26,8 +25,8 @@ class CarouselHome extends Component {
                 <Carousel className="carouselHome"
                 interval={5000}
                 pauseOnHover={false}
-                prevIcon={<img src={leftRight} />}
-                nextIcon={<img src={leftRight} />}
+                prevIcon={<img src={leftRight} alt="leftArrow"/>}
+                nextIcon={<img src={leftRight} alt="rightArrow"/>}
                 >
                     <Carousel.Item style={{backgroundImage:`url(${sombra})`}}>
                         <Carousel.Caption>
