@@ -83,10 +83,10 @@ class Header extends Component {
 
           <NavDropdown className="navItem" title="soutien" id="basic-nav-dropdown">
             <MenuItem>
-              <Link to="/ana">Ana</Link>
+              <Link to="/anna">Ana</Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/brigite">Brigite</Link>
+              <Link to="/brigitte">Brigite</Link>
             </MenuItem>
             <MenuItem>
               <Link to="/lucio">Lucio</Link>

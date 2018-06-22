@@ -16,33 +16,33 @@ class Zarya extends Component {
   render() {
     const data = {
       pers: "Zarya",
-      description: "Zarya manipule le climat pour ralentir ses ennemis et protéger les endroits importants. Son canon endothermique projette de redoutables pointes de glace ou libère un flux de givre, et elle peut entrer en cryostase pour survivre aux contre-attaques, ou bloquer le chemin de l’équipe adverse avec un mur de glace.",
+      description: "Avec ses robustes écrans convertissant les dégâts subis en énergie pour son énorme canon à particules, Zarya représente un atout de choix pour tenir les premières lignes du champ de bataille.",
       videoIntro: ZaryaVideo,
-      nom: " Zarya-Ling Zhou",
-      age: "31 ans",
-      profession: "climatologue, aventurière",
-      baseOperation: "Xi’an, Chine (anciennement)",
-      affiliation: "Overwatch (anciennement)",
+      nom: " Aleksandra Zaryanova",
+      age: "28  ans",
+      profession: "soldat",
+      baseOperation: "front de Krasnoïarsk, Russie",
+      affiliation: "forces de défense russes",
       skills: [
         {
           img: iconAbility1,
-          titre: "Canon endothermique",
-          desc: "Le blaster de Zarya libère un flux de givre concentré à courte portée qui endommage, ralentit et finit par geler sur place les ennemis. Zarya peut aussi s’en servir pour tirer des glaçons à portée moyenne.",
+          titre: "Canon à particules",
+          desc: "Le puissant canon à particules de Zarya déchaîne un rayon d’énergie destructrice à courte portée. Zarya peut également s’en servir pour projeter une charge explosive capable de blesser plusieurs adversaires.",
           videodesc: video_ability_zarya1
         }, {
           img: iconAbility2,
-          titre: "Cryostase",
-          desc: "Zarya s’entoure instantanément d'un épais bloc de glace. Elle se soigne et échappe aux dégâts tant qu’elle est à l’intérieur, mais elle ne peut ni se déplacer, ni utiliser de capacités. ",
+          titre: "Écran de particules",
+          desc: "Le canon à particules peut émettre une barrière individuelle qui protège Zarya contre les attaques la ciblant, absorbant leur énergie pour augmenter les dégâts et la largeur du rayon de son arme.",
           videodesc: video_ability_zarya2
         }, {
           img: iconAbility3,
-          titre: "Mur de glace",
-          desc: "Zarya génère un énorme mur de glace qui bouche les lignes de vue, empêche le déplacement et bloque les attaques. ",
+          titre: "Écran généré",
+          desc: "Zarya englobe l’un de ses coéquipiers dans une barrière d’énergie qui absorbe les coups et renforce la puissance de son canon à particules.",
           videodesc: video_ability_zarya3
         }, {
           img: iconAbility4,
-          titre: "Blizzard",
-          desc: "Zarya déploie un drone de modification du climat qui émet des bourrasques de vent et de neige dans une large zone. Les ennemis pris dans le blizzard sont ralentis et subissent des dégâts, et ceux qui s’attardent trop longtemps sont complètement gelés. ",
+          titre: "Orbe à gravitons",
+          desc: "Zarya lance une bombe gravitationnelle qui attire les combattants ennemis et les blesse tant qu’ils restent piégés.",
           videodesc: video_ability_zarya4
         }
       ],skin: [

@@ -4,6 +4,7 @@ import sombra from '../../scss/picture/Sombra/sombra.jpg';
 import chopper from '../../scss/picture/chopper.jpg';
 import mccree from '../../scss/picture/McCree/mccree.jpg';
 import lucio from '../../scss/picture/Lucio/lucio.jpg';
+import tracer from '../../scss/picture/Tracer/tracer.jpg';
 import junkrat from '../../scss/picture/Junkrat/junkrat.jpg';
 import reaper from '../../scss/picture/Reaper/reaper.jpg';
 import mei from '../../scss/picture/Mei/mei.jpg';
@@ -24,6 +25,8 @@ import zarya from '../../scss/picture/Zarya/zarya.jpg';
 import brigitte from '../../scss/picture/Brigitte/brigitte.jpg';
 import anna from '../../scss/picture/Anna/anna.jpg';
 import moira from '../../scss/picture/Moira/moira.jpg';
+import symmetra from '../../scss/picture/Symmetra/symmetra.jpg';
+import zenyatta from '../../scss/picture/Zenyatta/zenyatta.jpg';
 import leftRight from "../../scss/picture/arrow.png";
 
 class CarouselHome extends Component {
@@ -63,6 +66,12 @@ class CarouselHome extends Component {
                     <Carousel.Item style={{backgroundImage:`url(${lucio})`}}>
                         <Carousel.Caption>
                             <h3>Lucio</h3>
+                            <p>Edited by NeiiKo</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item style={{backgroundImage:`url(${tracer})`}}>
+                        <Carousel.Caption>
+                            <h3>Tracer</h3>
                             <p>Edited by NeiiKo</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -171,6 +180,18 @@ class CarouselHome extends Component {
                         <Carousel.Item style={{backgroundImage:`url(${moira})`}}>
                             <Carousel.Caption>
                                 <h3>Moira</h3>
+                                <p>Edited by NeiiKo</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item style={{backgroundImage:`url(${symmetra})`}}>
+                            <Carousel.Caption>
+                                <h3>Symmetra</h3>
+                                <p>Edited by NeiiKo</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item style={{backgroundImage:`url(${zenyatta})`}}>
+                            <Carousel.Caption>
+                                <h3>Zenyatta</h3>
                                 <p>Edited by NeiiKo</p>
                             </Carousel.Caption>
                         </Carousel.Item>

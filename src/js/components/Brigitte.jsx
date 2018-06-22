@@ -19,44 +19,44 @@ import Test from "../../scss/picture/McCree/test.jpg";
 class Brigitte extends Component {
   render() {
     const data = {
-      pers: "Ange",
-      description: "L’armure Valkyrie d’Ange lui permet de veiller sur ses coéquipiers tel un ange gardien. Grâce aux rayons de son Caducée, elle peut les soigner, les ressusciter ou les renforcer.",
+      pers: "Brigitte",
+      description: "Brigitte est spécialisée dans les armures. Elle peut lancer des modules de réparation pour soigner ses alliés, ou les soigner automatiquement quand elle inflige des dégâts à ses ennemis à l’aide de son fléau. Cette arme peut toucher plusieurs cibles à la fois et a la capacité d’effectuer une frappe cinglante qui étourdit un ennemi à distance. Quand Brigitte entre dans la mêlée, son bouclier-écran lui fournit une protection pendant qu’elle attaque ses ennemis avec sa charge de bouclier. Sa capacité ultime, Ralliement, lui octroie un bonus de vitesse non négligeable pendant quelques secondes et fournit un bonus d’armure persistant à tous ses alliés proches.",
       videoIntro: BrigitteVideo,
-      nom: "Angela Ziegler",
-      age: "37 ans",
-      profession: " médecin urgentiste, équipe de premiers secours",
-      baseOperation: "Zurich, Suisse",
-      affiliation: "Overwatch (anciennement)",
+      nom: " Brigitte Lindholm",
+      age: "23  ans",
+      profession: "  ingénieure en génie mécanique, aventurière",
+      baseOperation: "Gothenburg, Suède (anciennement)",
+      affiliation: "aucune",
       skills: [
         {
           img: iconAbility1,
-          titre: "CADUCÉE",
-          desc: "Ange projette un des deux rayons sur un allié. En maintenant les rayons, elle peut soigner l’allié ciblé ou augmenter les dégâts qu’il inflige.",
+          titre: "Fléau à réaction",
+          desc: "L’arme de mêlée de Brigitte a une portée augmentée, ce qui lui permet de frapper plusieurs ennemis en un seul coup.",
           videodesc: video_ability_brigitte1
         }, {
           img: iconAbility2,
-          titre: "MISÉRICORDE",
-          desc: "Ange tire une salve avec son arme de poing.",
+          titre: "Module de réparation",
+          desc: "Brigitte lance un module de réparation qui soigne un allié. Tout soin excédentaire sur cet allié lui octroie un bonus d’armure en compensation.",
           videodesc: video_ability_brigitte2
         }, {
           img: iconAbility3,
-          titre: "ANGE GARDIEN",
-          desc: "Ange vole vers un allié ciblé. Elle peut ainsi rejoindre rapidement ses coéquipiers pour mieux les assister dans les moments cruciaux.",
+          titre: "Fléau cinglant",
+          desc: "Brigitte lance son fléau à distance et ce qui inflige des dégâts et repousse l’ennemi touché loin d’elle.",
           videodesc: video_ability_brigitte3
         }, {
           img: iconAbility4,
-          titre: "RÉSURRECTION",
-          desc: "Ange ranime un allié mort avec la totalité de ses points de vie.",
+          titre: "Bouclier-écran",
+          desc: "Brigitte déploie un bouclier d’énergie devant elle, qui absorbe un montant de dégâts limité.",
           videodesc: video_ability_brigitte4
         }, {
           img: iconAbility5,
-          titre: "SAUT DE L’ANGE",
-          desc: "Grâce aux propulseurs de son armure Valkyrie, Ange peut ralentir sa vitesse de chute et descendre de n’importe quelle hauteur.",
+          titre: "CHARGE DE BOUCLIER",
+          desc: "Une fois son bouclier-écran déployé, Brigitte peut charger vers l’avant et étourdir un ennemi.",
           videodesc: video_ability_brigitte5
         }, {
           img: iconAbility6,
-          titre: "VALKYRIE",
-          desc: "Confère à Ange la capacité à voler. Ses capacités sont améliorées.",
+          titre: "Ralliement",
+          desc: "Brigitte se déplace plus rapidement et fournit à ses alliés proches un bonus d’amure qui dure jusqu’à ce qu’il soit absorbé par les dégâts subis.",
           videodesc: video_ability_brigitte6
         }
       ],skin: [

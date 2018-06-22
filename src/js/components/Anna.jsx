@@ -16,33 +16,33 @@ class Anna extends Component {
   render() {
     const data = {
       pers: "Anna",
-      description: "Anna manipule le climat pour ralentir ses ennemis et protéger les endroits importants. Son canon endothermique projette de redoutables pointes de glace ou libère un flux de givre, et elle peut entrer en cryostase pour survivre aux contre-attaques, ou bloquer le chemin de l’équipe adverse avec un mur de glace.",
+      description: "L’arsenal polyvalent d’Ana lui permet de soigner et de renforcer ses alliés à distance, tandis que son fusil biotique, ses fléchettes tranquillisantes et ses grenades biotiques neutralisent quiconque menace ses camarades.",
       videoIntro: AnnaVideo,
-      nom: " Anna-Ling Zhou",
-      age: "31 ans",
-      profession: "climatologue, aventurière",
-      baseOperation: "Xi’an, Chine (anciennement)",
+      nom: "Ana Amari",
+      age: "60  ans",
+      profession: "chasseuse de primes",
+      baseOperation: "Le Caire, Égypte",
       affiliation: "Overwatch (anciennement)",
       skills: [
         {
           img: iconAbility1,
-          titre: "Canon endothermique",
-          desc: "Le blaster de Anna libère un flux de givre concentré à courte portée qui endommage, ralentit et finit par geler sur place les ennemis. Anna peut aussi s’en servir pour tirer des glaçons à portée moyenne.",
+          titre: "Fusil biotique",
+          desc: "Le fusil d’Ana projette des fléchettes qui régénèrent les points de vie de ses alliés ou infligent des dégâts continus à ses ennemis. La lunette de son fusil lui permet de zoomer sur ses cibles pour des tirs d’une extrême précision.",
           videodesc: video_ability_anna1
         }, {
           img: iconAbility2,
-          titre: "Cryostase",
-          desc: "Anna s’entoure instantanément d'un épais bloc de glace. Elle se soigne et échappe aux dégâts tant qu’elle est à l’intérieur, mais elle ne peut ni se déplacer, ni utiliser de capacités. ",
+          titre: "Fléchette hypodermique",
+          desc: "Ana tire une fléchette avec son arme de poing, provoquant l’évanouissement d’un ennemi (qui se réveille s’il subit des dégâts).",
           videodesc: video_ability_anna2
         }, {
           img: iconAbility3,
-          titre: "Mur de glace",
-          desc: "Anna génère un énorme mur de glace qui bouche les lignes de vue, empêche le déplacement et bloque les attaques. ",
+          titre: "Grenade biotique",
+          desc: "Ana lance une bombe biotique qui inflige des dégâts aux ennemis et soigne les alliés dans une zone de taille réduite. Pendant un court moment, les alliés affectés reçoivent plus de soins de toutes les sources, tandis que les ennemis pris dans l’explosion ne peuvent temporairement plus être soignés.",
           videodesc: video_ability_anna3
         }, {
           img: iconAbility4,
-          titre: "Blizzard",
-          desc: "Anna déploie un drone de modification du climat qui émet des bourrasques de vent et de neige dans une large zone. Les ennemis pris dans le blizzard sont ralentis et subissent des dégâts, et ceux qui s’attardent trop longtemps sont complètement gelés. ",
+          titre: "Nanoboost",
+          desc: "Lorsqu’ils reçoivent un bonus de combat de la part d’Ana, ses alliés infligent plus de dégâts et résistent mieux aux attaques ennemies.",
           videodesc: video_ability_anna4
         }
       ],skin: [
