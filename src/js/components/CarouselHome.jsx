@@ -26,8 +26,8 @@ class CarouselHome extends Component {
                 <Carousel className="carouselHome"
                 interval={5000}
                 pauseOnHover={false}
-                prevIcon={<img src={leftRight} />}
-                nextIcon={<img src={leftRight} />}
+                prevIcon={<img src={leftRight} alt="leftArrow"/>}
+                nextIcon={<img src={leftRight} alt="rightArrow"/>}
                 >
                     <Carousel.Item style={{backgroundImage:`url(${sombra})`}}>
                         <Carousel.Caption>

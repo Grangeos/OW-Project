@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import HeroComponent from "./HeroComponent";
 
 import iconAbility1 from "../../scss/picture/chopper/IconAbility.png";

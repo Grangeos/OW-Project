@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import cx from "classnames";
-import { ListGroup, ListGroupItem, Jumbotron, Image, Button, Collapse, Well, Row, Col, Carousel} from "react-bootstrap";
+import { Jumbotron, Image, Button, Collapse, Well, Row, Col, Carousel} from "react-bootstrap";
 import Video from 'react-video-cover';
 import map from 'lodash/map';
 
