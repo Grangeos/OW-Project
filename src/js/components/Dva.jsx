@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import HeroComponent from "../HeroComponent";
+import HeroComponent from "./HeroComponent";
 
 import iconAbility1 from "../../scss/picture/Dva/IconAbility.png";
 import iconAbility2 from "../../scss/picture/Dva/IconAbility1.png";
@@ -16,6 +16,7 @@ import video_ability_Dva4 from "../../scss/picture/Dva/video-ability_dva4.mp4";
 import video_ability_Dva5 from "../../scss/picture/Dva/video-ability_dva5.mp4";
 import video_ability_Dva6 from "../../scss/picture/Dva/video-ability_dva6.mp4";
 import video_ability_Dva7 from "../../scss/picture/Dva/video-ability_dva7.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 
 class Dva extends Component {
@@ -66,7 +67,15 @@ class Dva extends Component {
             desc: "Si son armure de combat blindée est détruite, D.Va peut appeler un nouveau méca et reprendre le combat.",
             videodesc: video_ability_Dva7
           }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
     const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;

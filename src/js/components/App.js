@@ -16,7 +16,7 @@ import Soldier from './Soldier';
 import Bastion from './Bastion';
 import Torbjorn from './Torbjorn';
 import Fatale from './Fatale';
-import Dva from './components/Dva';
+import Dva from './Dva';
 import CarouselHome from './CarouselHome';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';

@@ -16,6 +16,7 @@ import soldier from '../../scss/picture/Soldier/soldier.jpg';
 import bastion from '../../scss/picture/Bastion/bastion.jpg';
 import torbjorn from '../../scss/picture/Torbjorn/torbjorn.png';
 import fatale from '../../scss/picture/Fatale/fatale.jpg';
+import dva from '../../scss/picture/Dva/dva.jpg';
 import leftRight from "../../scss/picture/arrow.png";
 
 class CarouselHome extends Component {
