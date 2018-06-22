@@ -3,16 +3,16 @@ import HeroComponent from "./HeroComponent";
 import { Carousel} from "react-bootstrap";
 
 
-import iconAbility1 from "../scss/picture/Pharah/IconAbility.png";
-import iconAbility2 from "../scss/picture/Pharah/IconAbility1.png";
-import iconAbility3 from "../scss/picture/Pharah/IconAbility2.png";
-import iconAbility4 from "../scss/picture/Pharah/IconAbility3.png";
-import PharahVideo from "../scss/picture/Pharah/VideoIntroPharah.mp4";
-import video_ability_pharah1 from "../scss/picture/Pharah/video-ability_pharah.mp4";
-import video_ability_pharah2 from "../scss/picture/Pharah/video-ability_pharah1.mp4";
-import video_ability_pharah3 from "../scss/picture/Pharah/video-ability_pharah2.mp4";
-import video_ability_pharah4 from "../scss/picture/Pharah/video-ability_pharah3.mp4";
-import photo from "../scss/picture/Pharah/pharah.jpg";
+import iconAbility1 from "../../scss/picture/Pharah/IconAbility.png";
+import iconAbility2 from "../../scss/picture/Pharah/IconAbility1.png";
+import iconAbility3 from "../../scss/picture/Pharah/IconAbility2.png";
+import iconAbility4 from "../../scss/picture/Pharah/IconAbility3.png";
+import PharahVideo from "../../scss/picture/Pharah/VideoIntroPharah.mp4";
+import video_ability_pharah1 from "../../scss/picture/Pharah/video-ability_pharah.mp4";
+import video_ability_pharah2 from "../../scss/picture/Pharah/video-ability_pharah1.mp4";
+import video_ability_pharah3 from "../../scss/picture/Pharah/video-ability_pharah2.mp4";
+import video_ability_pharah4 from "../../scss/picture/Pharah/video-ability_pharah3.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Pharah extends Component {
   render() {
@@ -47,25 +47,20 @@ class Pharah extends Component {
           desc: "Pharah dirige une salve continue de mini-roquettes pour détruire des groupes d’ennemis.",
           videodesc: video_ability_pharah4
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
     const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;
     return (
-      <HeroComponent {...data}>
-        <Carousel.Item style={{backgroundImage:`url(${photo})`}} />
-          <Carousel.Caption>
-            <h3>{pers}</h3>
-          </Carousel.Caption>
-        <Carousel.Item style={{backgroundImage:`url(${photo})`}} />
-            <Carousel.Caption>
-              <h3>{pers}</h3>
-            </Carousel.Caption>
-              {/* Exemple */}
-      </HeroComponent>
-
-
-
+      <HeroComponent {...data}/>
     );
   }
 }

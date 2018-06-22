@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
 
-import iconAbility1 from "../scss/picture/Soldier/iconAbility.png";
-import iconAbility2 from "../scss/picture/Soldier/iconAbility1.png";
-import iconAbility3 from "../scss/picture/Soldier/iconAbility2.png";
-import iconAbility4 from "../scss/picture/Soldier/iconAbility3.png";
-import iconAbility5 from "../scss/picture/Soldier/iconAbility4.png";
-import SoldierVideo from "../scss/picture/Soldier/VideoIntroSoldier.mp4";
-import video_ability_soldier1 from "../scss/picture/Soldier/video-ability_solder1.mp4";
-import video_ability_soldier2 from "../scss/picture/Soldier/video-ability_solder2.mp4";
-import video_ability_soldier3 from "../scss/picture/Soldier/video-ability_solder3.mp4";
-import video_ability_soldier4 from "../scss/picture/Soldier/video-ability_solder4.mp4";
-import video_ability_soldier5 from "../scss/picture/Soldier/video-ability_solder5.mp4";
+import iconAbility1 from "../../scss/picture/Soldier/iconAbility.png";
+import iconAbility2 from "../../scss/picture/Soldier/iconAbility1.png";
+import iconAbility3 from "../../scss/picture/Soldier/iconAbility2.png";
+import iconAbility4 from "../../scss/picture/Soldier/iconAbility3.png";
+import iconAbility5 from "../../scss/picture/Soldier/iconAbility4.png";
+import SoldierVideo from "../../scss/picture/Soldier/VideoIntroSoldier.mp4";
+import video_ability_soldier1 from "../../scss/picture/Soldier/video-ability_solder1.mp4";
+import video_ability_soldier2 from "../../scss/picture/Soldier/video-ability_solder2.mp4";
+import video_ability_soldier3 from "../../scss/picture/Soldier/video-ability_solder3.mp4";
+import video_ability_soldier4 from "../../scss/picture/Soldier/video-ability_solder4.mp4";
+import video_ability_soldier5 from "../../scss/picture/Soldier/video-ability_solder5.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Soldier extends Component {
   render() {
@@ -51,7 +52,15 @@ class Soldier extends Component {
           desc: "La visière tactique de localisation du soldat : 76 « verrouille » la menace la plus proche de son viseur. Si un ennemi quitte son champ de vision, le soldat : 76 peut rapidement changer de cible.",
           videodesc: video_ability_soldier5
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
     const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;

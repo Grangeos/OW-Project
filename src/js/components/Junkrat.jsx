@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
 
-import iconAbility1 from "../scss/picture/Junkrat/IconAbility.png";
-import iconAbility2 from "../scss/picture/Junkrat/IconAbility1.png";
-import iconAbility3 from "../scss/picture/Junkrat/IconAbility2.png";
-import iconAbility4 from "../scss/picture/Junkrat/IconAbility3.png";
-import iconAbility5 from "../scss/picture/Junkrat/IconAbility4.png";
-import JunkratVideo from "../scss/picture/Junkrat/VideoIntroJunkrat.mp4";
-import video_ability_Junkrat1 from "../scss/picture/Junkrat/video-ability_junkrat.mp4";
-import video_ability_Junkrat2 from "../scss/picture/Junkrat/video-ability_junkrat1.mp4";
-import video_ability_Junkrat3 from "../scss/picture/Junkrat/video-ability_junkrat2.mp4";
-import video_ability_Junkrat4 from "../scss/picture/Junkrat/video-ability_junkrat3.mp4";
-import video_ability_Junkrat5 from "../scss/picture/Junkrat/video-ability_junkrat4.mp4";
+import iconAbility1 from "../../scss/picture/Junkrat/IconAbility.png";
+import iconAbility2 from "../../scss/picture/Junkrat/IconAbility1.png";
+import iconAbility3 from "../../scss/picture/Junkrat/IconAbility2.png";
+import iconAbility4 from "../../scss/picture/Junkrat/IconAbility3.png";
+import iconAbility5 from "../../scss/picture/Junkrat/IconAbility4.png";
+import JunkratVideo from "../../scss/picture/Junkrat/VideoIntroJunkrat.mp4";
+import video_ability_Junkrat1 from "../../scss/picture/Junkrat/video-ability_junkrat.mp4";
+import video_ability_Junkrat2 from "../../scss/picture/Junkrat/video-ability_junkrat1.mp4";
+import video_ability_Junkrat3 from "../../scss/picture/Junkrat/video-ability_junkrat2.mp4";
+import video_ability_Junkrat4 from "../../scss/picture/Junkrat/video-ability_junkrat3.mp4";
+import video_ability_Junkrat5 from "../../scss/picture/Junkrat/video-ability_junkrat4.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Junkrat extends Component {
   render() {
@@ -52,7 +53,15 @@ class Junkrat extends Component {
           desc: "Chacal fait vrombir une bombe-pneu motorisée qui peut grimper sur les murs et les obstacles, et l’envoie rouler sur le champ de bataille. Il peut faire détoner le pneumastic à distance pour infliger d'importants dégâts aux ennemis pris dans l’explosion, ou simplement attendre qu’il explose de lui-même.",
           videodesc: video_ability_Junkrat5
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
     const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;

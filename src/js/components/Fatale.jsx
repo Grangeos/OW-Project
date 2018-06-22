@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
 
-import iconAbility1 from "../scss/picture/Fatale/IconAbility.png";
-import iconAbility2 from "../scss/picture/Fatale/IconAbility1.png";
-import iconAbility3 from "../scss/picture/Fatale/IconAbility2.png";
-import iconAbility4 from "../scss/picture/Fatale/IconAbility3.png";
-import FataleVideo from "../scss/picture/Fatale/VideoIntroFatale.mp4";
-import video_ability_fatale1 from "../scss/picture/Fatale/video-ability_fatale1.mp4";
-import video_ability_fatale2 from "../scss/picture/Fatale/video-ability_fatale2.mp4";
-import video_ability_fatale3 from "../scss/picture/Fatale/video-ability_fatale3.mp4";
-import video_ability_fatale4 from "../scss/picture/Fatale/video-ability_fatale4.mp4";
+import iconAbility1 from "../../scss/picture/Fatale/IconAbility.png";
+import iconAbility2 from "../../scss/picture/Fatale/IconAbility1.png";
+import iconAbility3 from "../../scss/picture/Fatale/IconAbility2.png";
+import iconAbility4 from "../../scss/picture/Fatale/IconAbility3.png";
+import FataleVideo from "../../scss/picture/Fatale/VideoIntroFatale.mp4";
+import video_ability_fatale1 from "../../scss/picture/Fatale/video-ability_fatale1.mp4";
+import video_ability_fatale2 from "../../scss/picture/Fatale/video-ability_fatale2.mp4";
+import video_ability_fatale3 from "../../scss/picture/Fatale/video-ability_fatale3.mp4";
+import video_ability_fatale4 from "../../scss/picture/Fatale/video-ability_fatale4.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Fatale extends Component {
   render() {
@@ -44,7 +45,15 @@ class Fatale extends Component {
           desc: "La visière de reconnaissance de Fatale lui permet de voir la signature thermique de ses cibles, même au travers des murs ou autres obstacles pendant un certain temps. Cette perception améliorée est partagée avec ses alliés.",
           videodesc: video_ability_fatale4
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
     const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;

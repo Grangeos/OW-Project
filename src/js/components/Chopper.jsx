@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
 
-import iconAbility1 from "../scss/picture/chopper/IconAbility.png";
-import iconAbility2 from "../scss/picture/chopper/IconAbility1.png";
-import iconAbility3 from "../scss/picture/chopper/IconAbility2.png";
-import iconAbility4 from "../scss/picture/chopper/IconAbility3.png";
-import ChopperVideo from "../scss/picture/chopper/VideoIntroChopper.mp4";
-import video_ability_chopper1 from "../scss/picture/chopper/video-ability.mp4";
-import video_ability_chopper2 from "../scss/picture/chopper/video-ability (1).mp4";
-import video_ability_chopper3 from "../scss/picture/chopper/video-ability (2).mp4";
-import video_ability_chopper4 from "../scss/picture/chopper/video-ability (3).mp4";
+import iconAbility1 from "../../scss/picture/chopper/IconAbility.png";
+import iconAbility2 from "../../scss/picture/chopper/IconAbility1.png";
+import iconAbility3 from "../../scss/picture/chopper/IconAbility2.png";
+import iconAbility4 from "../../scss/picture/chopper/IconAbility3.png";
+import ChopperVideo from "../../scss/picture/chopper/VideoIntroChopper.mp4";
+import video_ability_chopper1 from "../../scss/picture/chopper/video-ability.mp4";
+import video_ability_chopper2 from "../../scss/picture/chopper/video-ability (1).mp4";
+import video_ability_chopper3 from "../../scss/picture/chopper/video-ability (2).mp4";
+import video_ability_chopper4 from "../../scss/picture/chopper/video-ability (3).mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Chopper extends React.Component {
   render() {
@@ -44,7 +45,15 @@ class Chopper extends React.Component {
 					desc: "Après avoir ajouté un chargeur supplémentaire au-dessus de son déferrailleur, Chopper le bourre de munitions. Pendant une courte période, il mitraille une large zone devant lui avec des shrapnels qui repoussent les ennemis.",
 	        videodesc: video_ability_chopper4
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
     return (
 			<HeroComponent {...data}/>

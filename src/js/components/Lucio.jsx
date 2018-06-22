@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
 
-import iconAbility1 from "../scss/picture/Lucio/IconAbility.png";
-import iconAbility2 from "../scss/picture/Lucio/IconAbility1.png";
-import iconAbility3 from "../scss/picture/Lucio/IconAbility2.png";
-import iconAbility4 from "../scss/picture/Lucio/IconAbility3.png";
-import LucioVideo from "../scss/picture/Lucio/VideoIntroLucio.mp4";
-import video_ability_lucio1 from "../scss/picture/Lucio/video-ability_lucio1.mp4";
-import video_ability_lucio2 from "../scss/picture/Lucio/video-ability_lucio2.mp4";
-import video_ability_lucio3 from "../scss/picture/Lucio/video-ability_lucio3.mp4";
-import video_ability_lucio4 from "../scss/picture/Lucio/video-ability_lucio4.mp4";
+import iconAbility1 from "../../scss/picture/Lucio/IconAbility.png";
+import iconAbility2 from "../../scss/picture/Lucio/IconAbility1.png";
+import iconAbility3 from "../../scss/picture/Lucio/IconAbility2.png";
+import iconAbility4 from "../../scss/picture/Lucio/IconAbility3.png";
+import LucioVideo from "../../scss/picture/Lucio/VideoIntroLucio.mp4";
+import video_ability_lucio1 from "../../scss/picture/Lucio/video-ability_lucio1.mp4";
+import video_ability_lucio2 from "../../scss/picture/Lucio/video-ability_lucio2.mp4";
+import video_ability_lucio3 from "../../scss/picture/Lucio/video-ability_lucio3.mp4";
+import video_ability_lucio4 from "../../scss/picture/Lucio/video-ability_lucio4.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Lucio extends Component {
   render() {
@@ -44,7 +45,15 @@ class Lucio extends Component {
           desc: "Des vagues protectrices irradient de l’ampli de Lúcio et lui procurent ainsi qu’à ses alliés proches des boucliers personnels.",
           videodesc: video_ability_lucio4
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
     const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;

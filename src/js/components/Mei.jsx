@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
 import HeroComponent from "./HeroComponent";
 
-import iconAbility1 from "../scss/picture/Mei/IconAbility.png";
-import iconAbility2 from "../scss/picture/Mei/IconAbility1.png";
-import iconAbility3 from "../scss/picture/Mei/IconAbility2.png";
-import iconAbility4 from "../scss/picture/Mei/IconAbility3.png";
-import MeiVideo from "../scss/picture/Mei/VideoIntroMei.mp4";
-import video_ability_mei1 from "../scss/picture/Mei/video-ability_mei1.mp4";
-import video_ability_mei2 from "../scss/picture/Mei/video-ability_mei2.mp4";
-import video_ability_mei3 from "../scss/picture/Mei/video-ability_mei3.mp4";
-import video_ability_mei4 from "../scss/picture/Mei/video-ability_mei4.mp4";
+import iconAbility1 from "../../scss/picture/Mei/IconAbility.png";
+import iconAbility2 from "../../scss/picture/Mei/IconAbility1.png";
+import iconAbility3 from "../../scss/picture/Mei/IconAbility2.png";
+import iconAbility4 from "../../scss/picture/Mei/IconAbility3.png";
+import MeiVideo from "../../scss/picture/Mei/VideoIntroMei.mp4";
+import video_ability_mei1 from "../../scss/picture/Mei/video-ability_mei1.mp4";
+import video_ability_mei2 from "../../scss/picture/Mei/video-ability_mei2.mp4";
+import video_ability_mei3 from "../../scss/picture/Mei/video-ability_mei3.mp4";
+import video_ability_mei4 from "../../scss/picture/Mei/video-ability_mei4.mp4";
+import Test from "../../scss/picture/McCree/test.jpg";
 
 class Mei extends Component {
   render() {
@@ -44,7 +45,15 @@ class Mei extends Component {
           desc: "Mei déploie un drone de modification du climat qui émet des bourrasques de vent et de neige dans une large zone. Les ennemis pris dans le blizzard sont ralentis et subissent des dégâts, et ceux qui s’attardent trop longtemps sont complètement gelés. ",
           videodesc: video_ability_mei4
         }
-      ]
+      ],skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
     }
 
     const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;

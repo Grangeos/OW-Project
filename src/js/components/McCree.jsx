@@ -3,16 +3,18 @@ import HeroComponent from "./HeroComponent";
 import { Carousel} from "react-bootstrap";
 
 
-import iconAbility1 from "../scss/picture/McCree/IconAbility.png";
-import iconAbility2 from "../scss/picture/McCree/IconAbility1.png";
-import iconAbility3 from "../scss/picture/McCree/IconAbility2.png";
-import iconAbility4 from "../scss/picture/McCree/IconAbility3.png";
-import McCreeVideo from "../scss/picture/McCree/VideoIntroMcCree.mp4";
-import video_ability_mccree1 from "../scss/picture/McCree/video-ability_mccree1.mp4";
-import video_ability_mccree2 from "../scss/picture/McCree/video-ability_mccree2.mp4";
-import video_ability_mccree3 from "../scss/picture/McCree/video-ability_mccree3.mp4";
-import video_ability_mccree4 from "../scss/picture/McCree/video-ability_mccree4.mp4";
-import photo from "../scss/picture/McCree/mccree.jpg";
+import iconAbility1 from "../../scss/picture/McCree/IconAbility.png";
+import iconAbility2 from "../../scss/picture/McCree/IconAbility1.png";
+import iconAbility3 from "../../scss/picture/McCree/IconAbility2.png";
+import iconAbility4 from "../../scss/picture/McCree/IconAbility3.png";
+import McCreeVideo from "../../scss/picture/McCree/VideoIntroMcCree.mp4";
+import video_ability_mccree1 from "../../scss/picture/McCree/video-ability_mccree1.mp4";
+import video_ability_mccree2 from "../../scss/picture/McCree/video-ability_mccree2.mp4";
+import video_ability_mccree3 from "../../scss/picture/McCree/video-ability_mccree3.mp4";
+import video_ability_mccree4 from "../../scss/picture/McCree/video-ability_mccree4.mp4";
+import skin1 from "../../scss/picture/McCree/mccree.jpg";
+import Test from "../../scss/picture/McCree/test.jpg";
+
 
 class McCree extends Component {
   render() {
@@ -47,25 +49,22 @@ class McCree extends Component {
           desc: "Concentration. Appréciation. Prise en main. McCree prend quelques précieux instants pour viser. Quand il se décide à tirer, il abat tous les ennemis dans son champ de vision. Plus ses cibles sont faibles, moins il aura besoin de viser pour que le tir soit mortel.",
           videodesc: video_ability_mccree4
         }
-      ]
+      ],
+      skin: [
+        {
+          imgskin: Test,
+          skinname: "coucou"
+        },{
+          imgskin: Test,
+          skinname: "salut"
+        }
+      ],
+
     }
 
-    const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills } = data;
+    const { description, pers, videoIntro, nom, age, profession, baseOperation, affiliation, skills, skin } = data;
     return (
-      <HeroComponent {...data}>
-        <Carousel.Item style={{backgroundImage:`url(${photo})`}} />
-          <Carousel.Caption>
-            <h3>{pers}</h3>
-          </Carousel.Caption>
-        <Carousel.Item style={{backgroundImage:`url(${photo})`}} />
-            <Carousel.Caption>
-              <h3>{pers}</h3>
-            </Carousel.Caption>
-              {/* Exemple */}
-      </HeroComponent>
-
-
-
+      <HeroComponent {...data}/>
     );
   }
 }
