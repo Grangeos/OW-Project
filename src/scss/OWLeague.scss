@@ -1,0 +1,28 @@
+// main: main.scss
+
+.OwLeague {
+  font-family: arial  !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .containeurTeam {
+    margin: 2em;
+    background-color: red;
+    padding: 1em 0;
+    h3, p {
+      text-align: center;
+    }
+    .imgTeam {
+    }
+    .seeMore {
+      text-align: center;
+    }
+  }
+  .conteneurCollapse {
+    display: flex;
+    background-color: orange;
+    border-top: 3px red solid;
+    margin-left: 2em;
+    width: 99em;
+    height: 30em;
+  }
+}
