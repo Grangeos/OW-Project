@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Navbar, MenuItem, Nav, NavDropdown} from "react-bootstrap";
+import {Navbar, MenuItem, Nav, NavDropdown, NavItem} from "react-bootstrap";
 import { Link } from 'react-router-dom';
 
 class Header extends Component {
@@ -104,6 +104,12 @@ class Header extends Component {
               <Link to="/zenyatta">Zenyatta</Link>
             </MenuItem>
           </NavDropdown>
+
+          <NavItem className="navItem">
+           <Link to="/league">
+            Overwatch League
+           </Link>
+          </NavItem>
         </Nav>
       </Navbar>
     );

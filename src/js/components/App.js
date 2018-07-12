@@ -1,33 +1,34 @@
 import React, { Component, Fragment } from 'react';
 import Header from "./Header.jsx";
-import McCree from "./McCree";
-import Sombra from './Sombra';
-import Chopper from './Chopper';
-import Junkrat from './Junkrat';
-import Lucio from './Lucio';
-import Tracer from './Tracer';
-import Reaper from './Reaper';
-import Mei from './Mei';
-import Hanzo from './Hanzo';
-import Mercy from './Mercy';
-import Doomfist from './Doomfist';
-import Genji from './Genji';
-import Pharah from './Pharah';
-import Soldier from './Soldier';
-import Bastion from './Bastion';
-import Torbjorn from './Torbjorn';
-import Fatale from './Fatale';
-import Dva from './Dva';
-import Orisa from './Orisa';
-import Reinhardt from './Reinhardt';
-import Winston from './Winston';
-import Zarya from './Zarya';
-import Brigitte from './Brigitte';
-import Anna from './Anna';
-import Moira from './Moira';
-import Symmetra from './Symmetra';
-import Zenyatta from './Zenyatta';
+import McCree from "./Attaquant/McCree";
+import Sombra from './Attaquant/Sombra';
+import Chopper from './Tank/Chopper';
+import Junkrat from './Defence/Junkrat';
+import Lucio from './Soutient/Lucio';
+import Tracer from './Attaquant/Tracer';
+import Reaper from './Attaquant/Reaper';
+import Mei from './Defence/Mei';
+import Hanzo from './Defence/Hanzo';
+import Mercy from './Soutient/Mercy';
+import Doomfist from './Attaquant/Doomfist';
+import Genji from './Attaquant/Genji';
+import Pharah from './Attaquant/Pharah';
+import Soldier from './Attaquant/Soldier';
+import Bastion from './Defence/Bastion';
+import Torbjorn from './Defence/Torbjorn';
+import Fatale from './Defence/Fatale';
+import Dva from './Tank/Dva';
+import Orisa from './Tank/Orisa';
+import Reinhardt from './Tank/Reinhardt';
+import Winston from './Tank/Winston';
+import Zarya from './Tank/Zarya';
+import Brigitte from './Soutient/Brigitte';
+import Anna from './Soutient/Anna';
+import Moira from './Soutient/Moira';
+import Symmetra from './Soutient/Symmetra';
+import Zenyatta from './Soutient/Zenyatta';
 import CarouselHome from './CarouselHome';
+import OwLeague from './OWLeague';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -70,6 +71,7 @@ class App extends Component {
                     <Route path="/moira" exact component={Moira} />
                     <Route path="/symmetra" exact component={Symmetra} />
                     <Route path="/zenyatta" exact component={Zenyatta} />
+                    <Route path="/League" exact component={OwLeague} />
                 </Switch>
             </Fragment>
         </Router>
